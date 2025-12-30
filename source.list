@@ -4,7 +4,7 @@
  ###########################################
 
 # Last sources.list update
-  WP-state 2025.12.26
+  WP-state 2025.12.30
   
 # Name            Version    Type           Status         Repo **
   WebPi-Core      1.0.1      core           released       .../webpi
