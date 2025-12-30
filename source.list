@@ -7,17 +7,18 @@
   WP-state 2025.12.26
   
 # Name            Version    Type           Status         Repo **
-  WebPi-Core      1.0.0      core           released       .../webpi
-  WebPiUI         1.0.0      ui             released       .../webpi
+  WebPi-Core      1.0.1      core           released       .../webpi
+  WebPiUI         1.1.0      ui             released       .../webpi
   WebPi-Config    1.0.0      tool           released       .../webpi
   WP-logbook      1.0.0      integration    released       .../wp-logbook
   WP-gpioWarpper  1.0.0      integration    released       .../gpiodWrapper
   WP-mcp23017     1.1.0      device         released       .../mcp23017
-  WP-cc1101       0.0.0      device         coming soon    .../wp-cc1101
+  WP-cc1101       0.0.2      device         coming soon    .../wp-cc1101
   WP-vl53l0x      1.0.0      device         released       .../wp-vl53l0x
   WP-i2c          0.0.0      bus            coming soon    .../wp-i2c
   WP-spi          0.0.0      bus            coming soon    .../wp-spi
   WP-uart         0.0.0      bus            coming soon    .../wp-uart
   WP-mqtt         0.0.0      integration    coming soon    .../wp-mqtt
   WP-neu          1.0.0      test           coming soon    .../wp-neu
+  WP-neuer        1.0.0      test           coming soon    .../wp-neu
 # ** https://github.com/dsmurph...
