@@ -10,15 +10,23 @@
   WebPi-Core      1.0.0      core           ready to publish    .../webpi
   WebPiUI         1.0.0      ui             ready to publish    .../webpi
   WebPi-Config    1.0.0      tool           in progress         .../webpi
-  WP-logbook      1.0.0      integration    in progress         .../wp-logbook
-  WP-gpioWarpper  1.0.0      integration    released            .../gpiodWrapper
-  WP-mcp23017     1.0.0      device         released            .../mcp23017
-  WP-cc1101       0.0.0      device         coming soon         .../wp-cc1101
-  WP-vl53l0x      1.0.0      device         ready to publish    .../wp-vl53l0x
-  WP-i2c          0.0.0      bus            coming soon         .../wp-i2c
-  WP-spi          0.0.0      bus            coming soon         .../wp-spi
-  WP-uart         0.0.0      bus            coming soon         .../wp-uart
-  WP-mqtt         0.0.0      integration    coming soon         .../wp-mqtt
-  WP-test         1.0.0      test           coming soon         .../wp-neu
+
+  wp-logbook      1.0.0      integration    in progress         .../wp-logbook
+  wp-gpiowarpper  1.0.0      integration    released            .../gpiodWrapper
+  wp-mqtt         0.0.0      integration    coming soon         .../wp-mqtt
+
+  wp-mcp23017     1.0.0      device         released            .../mcp23017
+  wp-cc1101       0.0.0      device         coming soon         .../wp-cc1101
+  wp-vl53l0x      1.0.0      device         ready to publish    .../wp-vl53l0x
+
+  wp-i2c          0.0.0      bus            coming soon         .../wp-i2c
+  wp-spi          0.0.0      bus            coming soon         .../wp-spi
+  wp-uart         0.0.0      bus            coming soon         .../wp-uart
+
+  wp_hellowebpi   0.0.1      example        ready to publish    .../webpi
+  wp_getip        0.0.1      example        ready to publish    .../webpi
+  wp_actuatord    0.0.1      example        ready to publish    .../webpi
+  wp_tempsensor   0.0.1      example        ready to publish    .../webpi
+  wp_shutter      0.0.1      example        ready to publish    .../webpi
 
 # ** https://github.com/dsmurph...
