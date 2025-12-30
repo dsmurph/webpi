@@ -9,7 +9,7 @@
 # Name            Version    Type           Status              Repo **
   WebPi-Core      1.0.0      core           ready to publish    .../webpi
   WebPiUI         1.0.0      ui             ready to publish    .../webpi
-  WebPi-Config    1.0.0      tool           ready to publish    .../webpi
+  WebPi-Config    1.0.0      tool           in progress         .../webpi
   WP-logbook      1.0.0      integration    in progress         .../wp-logbook
   WP-gpioWarpper  1.0.0      integration    released            .../gpiodWrapper
   WP-mcp23017     1.0.0      device         released            .../mcp23017
