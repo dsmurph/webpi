@@ -29,11 +29,9 @@
   wp_tempsensor   1.0.0      example        ready          webpi
   wp_shutter      1.0.0      example        ready          webpi
 -
-  wp_tell         1.0.0      utils          ready          webpi
-  wp_msnow        1.0.0      utils          ready          webpi
-  wp_mstimer      1.0.0      utils          ready          webpi
-  wp_mswait       1.0.0      utils          ready          webpi
-  wp_hostip       1.0.0      utils          ready          webpi
-  wp_hostname     1.0.0      utils          ready          webpi
+  wp_tellme       1.0.0      utils          ready          webpi
+  wp_timebreak    1.0.0      utils          ready          webpi
+  wp_timers       1.0.0      utils          ready          webpi
+  wp_hostinfo     1.0.0      utils          ready          webpi
 
 # ** https://github.com/dsmurph...
