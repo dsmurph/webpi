@@ -7,26 +7,33 @@
   WP-state 2026.01.01
   
 # Name            Version    Type           Status         Repository **
-  WebPi-Core      1.0.0      core           ready          .../webpi
-  WebPiUI         1.0.0      ui             in_progress    .../webpi
-  WebPi-Config    1.0.0      tool           ready          .../webpi
+  WebPi-Core      1.0.0      core           ready          webpi
+  WebPiUI         1.0.0      ui             in_progress    webpi
+  WebPi-Config    1.0.0      tool           ready          webpi
 -
-  wp-logbook      1.0.0      integration    in_progress    .../wp-logbook
-  wp-gpiowarpper  1.0.0      integration    released       .../gpiodWrapper
-  wp-mqtt         0.0.0      integration    coming_soon    .../wp-mqtt
+  wp-logbook      1.0.0      integration    in_progress    wp-logbook
+  wp-gpiowarpper  1.0.0      integration    released       gpiodWrapper
+  wp-mqtt         0.0.0      integration    coming_soon    wp-mqtt
 -
-  wp-mcp23017     1.0.0      device         released       .../mcp23017
-  wp-cc1101       0.0.0      device         coming_soon    .../wp-cc1101
-  wp-vl53l0x      1.0.0      device         ready          .../wp-vl53l0x
+  wp-mcp23017     1.0.0      device         released       mcp23017
+  wp-cc1101       0.0.0      device         coming_soon    wp-cc1101
+  wp-vl53l0x      1.0.0      device         ready          wp-vl53l0x
 -
-  wp-i2c          0.0.0      bus            coming_soon    .../wp-i2c
-  wp-spi          0.0.0      bus            coming_soon    .../wp-spi
-  wp-uart         0.0.0      bus            coming_soon    .../wp-uart
+  wp-i2c          0.0.0      bus            coming_soon    wp-i2c
+  wp-spi          0.0.0      bus            coming_soon    wp-spi
+  wp-uart         0.0.0      bus            coming_soon    wp-uart
 -
-  wp_hellowebpi   0.0.1      example        ready          .../webpi
-  wp_getip        0.0.1      example        ready          .../webpi
-  wp_actuatord    0.0.1      example        ready          .../webpi
-  wp_tempsensor   0.0.1      example        ready          .../webpi
-  wp_shutter      0.0.1      example        ready          .../webpi
+  wp_hellowebpi   1.0.0      example        ready          webpi
+  wp_getip        1.0.0      example        ready          webpi
+  wp_actuatord    1.0.0      example        ready          webpi
+  wp_tempsensor   1.0.0      example        ready          webpi
+  wp_shutter      1.0.0      example        ready          webpi
+-
+  wp_tell         1.0.0      utils          ready          webpi
+  wp_msnow        1.0.0      utils          ready          webpi
+  wp_mstimer      1.0.0      utils          ready          webpi
+  wp_mswait       1.0.0      utils          ready          webpi
+  wp_hostip       1.0.0      utils          ready          webpi
+  wp_hostname     1.0.0      utils          ready          webpi
 
 # ** https://github.com/dsmurph...
