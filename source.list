@@ -1,37 +1,40 @@
  ##########  WebPi  sources.list  ##########
-#           @author Kayo (dsmurph)          #
+#               @author Kayo                    #
 #               @license MIT                #
  ###########################################
 
 # Last sources.list update
-  WP-state 2026.01.11
+  WP-state 2026.02.13
   
-# Name            Version    Type           Status         Repository **
-  WebPi-Core      1.0.0      core           ready          webpi
-  WebPiUI         1.0.0      ui             in_progress    webpi
-  WebPi-Config    1.0.0      tool           ready          webpi
+# Name            Version    Type           Status
+  WebPiCore       0.9.5      core           ready
+  WebPiUI         0.2.0      ui             in_progressl
+  WebPiStart      0.9.0      tool           ready
+  WebPiEasy       0.9.8      helper         ready
 -
-  wp-logbook      1.0.0      integration    in_progress    wp-logbook
-  wp-gpiowarpper  1.0.0      integration    released       gpiodWrapper
-  wp-mqtt         0.0.0      integration    coming_soon    wp-mqtt
+  wp_gpio_sys     0.8.5      driver         ready
+  wp_gpiod_wrap   0.8.0      driver         ready
 -
-  wp-mcp23017     1.0.0      device         released       mcp23017
-  wp-cc1101       0.0.0      device         coming_soon    wp-cc1101
-  wp-vl53l0x      1.0.0      device         ready          wp-vl53l0x
+  wp-logbook      0.2.0      integration    in_progress
+  wp-mqtt         0.2.0      integration    in_progress
 -
-  wp-i2c          0.0.0      bus            coming_soon    wp-i2c
-  wp-spi          0.0.0      bus            coming_soon    wp-spi
-  wp-uart         0.0.0      bus            coming_soon    wp-uart
+  wp-mcp23017     0.9.8      device         redy
+  wp-cc1101       0.3.0      device         in_progress
+  wp-vl53l0x      0.9.9      device         ready      
 -
-  wp_hellowebpi   1.0.0      example        ready          webpi
-  wp_getip        1.0.0      example        ready          webpi
-  wp_actuatord    1.0.0      example        ready          webpi
-  wp_tempsensor   1.0.0      example        ready          webpi
-  wp_shutter      1.0.0      example        ready          webpi
+  wp-i2c          0.9.0      bus            ready
+  wp-spi          0.9.0      bus            ready
+  wp-uart         0.7.0      bus            in_progress
 -
-  wp_tellme       1.0.0      utils          ready          webpi
-  wp_timebreak    1.0.0      utils          ready          webpi
-  wp_timers       1.0.0      utils          ready          webpi
-  wp_hostinfo     1.0.0      utils          ready          webpi
+  wp_hellowebpi   0.9.8      example        ready
+  wp_hostinfo     0.9.8      example        ready
+  wp_actuatord    0.9.8      example        ready
+  wp_tempsensor   0.9.8      example        ready
+  wp_shutter      0.9.8      example        ready
+-
+  wp_tellme       0.9.0      example        ready
+  wp_timebreak    0.9.0      example        ready
+  wp_timers       0.9.0      example        ready
+  wp_hostinfo     0.9.0      example        ready
 
-# ** https://github.com/dsmurph...
+# https://github.com/dsmurph/webpi
