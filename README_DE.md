@@ -41,9 +41,9 @@ WebPi/
 ├─ apps/            # Zentrales Verzeichnis für WebPi Applikationen zum benutzen, erweitern und anpassen.
 ├─ docs/            # Erste Schritte im Umgang mit WebPi, erweiterte Funktionsbeschreibungen und Informationen rund um dieses Projekt.
 ├─ extensions/      # Erweiterungen die dir den Einstieg und das "Leben" leichter machen.
-|  ├─ webpidevices/    # Gängige und Beliebte Hardware-Module werden unterstützt und im laufe der Zeit erweitert.
-|  ├─ webpimodules/    # Boardmittel mit einfachen und verständlichen Schnittstellen.
-|  └─ webpieasy/       # WebPiEasy ist eine Wrapper-Zusammenstellung die dir den Einstieg erleichtern. Einfachgehaltene Funktionen, kurze Bezeichnungen zum merken und der interne C++ Kern wird nicht versteckt.
+│  ├─ webpidevices/    # Gängige und Beliebte Hardware-Module werden unterstützt und im laufe der Zeit erweitert.
+│  ├─ webpimodules/    # Boardmittel mit einfachen und verständlichen Schnittstellen.
+│  └─ webpieasy/       # WebPiEasy ist eine Wrapper-Zusammenstellung die dir den Einstieg erleichtern. Einfachgehaltene Funktionen, kurze Bezeichnungen zum merken und der interne C++ Kern wird nicht versteckt.
 ├─ examples/        # Von "Hello WebPi" das Grundgerüst von WebPi, bis hin zu SVG-Temperaturgraphen und BitMasken Umgang zum Anfassen.
 └─ webpiStart       # Das Schweizer Taschenmesser für den ersten Schritt mit WebPi.
 
