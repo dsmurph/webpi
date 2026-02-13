@@ -1,10 +1,10 @@
  ##########  WebPi  sources.list  ##########
-#               @author Kayo                    #
+#               @author Kayo                #
 #               @license MIT                #
  ###########################################
 
 # Last sources.list update
-  WP-state 2026.02.13
+  WP-State 2026.02.13
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
