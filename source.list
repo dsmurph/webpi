@@ -12,7 +12,7 @@
   WebPiStart      0.9.0      tool           ready
   WebPiEasy       0.9.8      helper         ready
 -
-  wp_gpio_sys     0.8.5      driver         ready
+  wp_gpio_v2      0.8.5      driver         ready
   wp_gpiod_wrap   0.8.0      driver         ready
 -
   wp-logbook      0.2.0      integration    in_progress
