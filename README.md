@@ -4,11 +4,11 @@
 </p>
 <h3 align="center">The Hardware and Software Logic Framework</h3>
 
----
+
 **[🇩🇪](README_DE.md)**
-**[story of WebPi](STORY.md)**
 ---
 
+**[story of WebPi](STORY.md)**
 
 **🚀 WebPi the bridge between modern Linux and your hardware projects.**
 
