@@ -1,7 +1,17 @@
-# 🚀 WebPi: Das Hardware und Software-Logik Framework
+
+
+<p align="center"><img src="resources/webpi.png" alt="WebPi Logo" width="100"></p>
+
+<h3 align="center">Das Hardware und Software-Logik Framework</h3>
+
+
+---
+
+
 **[Read this in English 🇺🇸](README.md)**
 
-**Die Brücke zwischen modernem Linux und deinen Hardware-Projekten.**
+
+**🚀 WebPi die Brücke zwischen modernem Linux und deinen Hardware-Projekten.**
 
 WebPi ist ein leichtgewichtiges C++ Webinterface-Framework für den Raspberry Pi. Es wurde entwickelt, um Sensoren, Aktoren und Gerätezustände über eine einfache HTTP-API und eine saubere, moderne Weboberfläche steuerbar zu machen – ohne den Ballast schwerfälliger externer Frameworks.
 
