@@ -3,10 +3,10 @@
 
 <h3 align="center">The Hardware and Software Logic Framework</h3>
 
-
+**[Auf Deutsch lesen 🇩🇪](README_DE.md)**
 ---
 
-**[Auf Deutsch lesen 🇩🇪](README_DE.md)**
+
 
 **🚀 WebPi the bridge between modern Linux and your hardware projects.**
 
