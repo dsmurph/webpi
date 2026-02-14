@@ -1,4 +1,9 @@
-# 🚀 WebPi: The Hardware and Software Logic Framework
+
+<p align="center">![WebPi Logo](resources/webpi.png)</p>
+
+<h1 align="center">WebPi</h1>
+
+The Hardware and Software Logic Framework
 **[Auf Deutsch lesen 🇩🇪](README_DE.md)**
 
 **The bridge between modern Linux and your hardware projects.**
