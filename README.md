@@ -1,5 +1,5 @@
 
-<p align="center"><img src="resources/webpi.png)</p>alt="WebPi Logo" width="100">
+<p align="center"><img src="resources/webpi.png" alt="WebPi Logo" width="100"></p>
 
 <h1 align="center">WebPi</h1>
 
