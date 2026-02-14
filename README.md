@@ -6,7 +6,7 @@
 
 
 **[🇩🇪](README_DE.md)**
-[story of WebPi](STORY.md)
+**[story of WebPi](STORY.md)**
 ---
 
 
