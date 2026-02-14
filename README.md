@@ -5,7 +5,7 @@
 
 
 ---
-**[Auf Deutsch lesen 🇩🇪](README_DE.md)**
+[Auf Deutsch lesen 🇩🇪](README_DE.md)
 ---
 
 
