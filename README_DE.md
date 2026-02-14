@@ -1,6 +1,3 @@
-<p align="center">**[Read this in English 🇺🇸](README.md)**</p>
-
----
 
 <p align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
@@ -8,6 +5,7 @@
 <h3 align="center">Das Hardware und Software-Logik Framework</h3>
 
 
+**[ 🇺🇸](README.md)**
 ---
 
 **🚀 WebPi die Brücke zwischen modernem Linux und deinen Hardware-Projekten.**
