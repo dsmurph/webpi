@@ -41,6 +41,7 @@ WebPi/
 ├─ extensions/      # Extensions to make your start and "life" easier.
 │  ├─ webpidevices/ # Support for common and popular hardware modules (constantly expanding).
 │  ├─ webpimodules/ # Built-in tools with simple and understandable interfaces.
+|  ├─ webpidrivers/    # Basic drivers for GPIO controllers and pin control.
 │  └─ webpieasy/    # A collection of wrappers to facilitate your entry. Simple functions, short names, without hiding the internal C++ core.
 ├─ examples/        # From "Hello WebPi" (the skeleton) to SVG temperature graphs and hands-on bitmask handling.
 └─ webpiStart       # The "Swiss Army Knife" for your first steps with WebPi.
