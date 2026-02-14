@@ -1,4 +1,6 @@
-<p align="center">[Read this in English 🇺🇸](README.md)</p>
+<p align="center">**[Read this in English 🇺🇸](README.md)**</p>
+
+---
 
 <p align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
