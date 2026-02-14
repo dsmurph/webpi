@@ -48,3 +48,17 @@ I wanted a framework that feels like Arduino but has the power of Linux.
 🧩 Modular: Drivers for MCP expanders and VL53L0X lasers included.
 
 Today, WebPi controls my garage. It’s fast, it’s reliable, and it was born from the frustration of being locked out of my own home.
+
+
+🏁 The Result: GaragePi is alive!
+This isn't just a prototype on a desk. This is the actual unit mounted in my garage. I call it GaragePi.
+
+No more lock-outs: Thanks to the stable C++ core and wired Ethernet.
+
+Easy Maintenance: If I want to change a code or a timing, I do it via the WebPi API.
+
+Full Control: From the Schurter Keypad to the VL53L0X laser checking if the car is inside.
+
+<p align="center">
+  <img src="resources/garagepi.jpg" alt="GaragePi">
+</p>
