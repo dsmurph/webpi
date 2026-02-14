@@ -66,3 +66,11 @@ Full Control: From the Schurter Keypad to the VL53L0X laser checking if the car 
 <p align="center">
   <img src="resources/keypad.jpg" alt="GaragePi keypad" width="300" height"400">
 </p>
+
+<p align="center">
+  <img src="resources/webpi_garagepi.jpg" alt="GaragePi keypad" width="300" height"400">
+</p>
+
+<p align="center">
+  <img src="resources/homeassistent_gpi.jpg" alt="GaragePi keypad" width="300" height"400">
+</p>
