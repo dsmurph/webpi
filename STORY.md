@@ -1,5 +1,5 @@
 
-##📖 The Story of WebPi
+## 📖 The Story of WebPi
 
 **From a Locked Garage to a Framework**
 
