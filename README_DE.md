@@ -1,14 +1,10 @@
+<p align="center">[Read this in English 🇺🇸](README.md)</p>
 
 <p align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
 </p>
 <h3 align="center">Das Hardware und Software-Logik Framework</h3>
 
-
----
-
-
-**[Read this in English 🇺🇸](README.md)**
 
 ---
 
