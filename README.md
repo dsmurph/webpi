@@ -1,7 +1,9 @@
 
 <p align="center"><img src="resources/webpi.png" alt="WebPi Logo" width="100"></p>
 
-The Hardware and Software Logic Framework
+<h1 align="center">The Hardware and Software Logic Framework</h1>
+
+
 **[Auf Deutsch lesen 🇩🇪](README_DE.md)**
 
 **The bridge between modern Linux and your hardware projects.**
