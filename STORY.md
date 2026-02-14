@@ -28,7 +28,7 @@ Then the problems started.
 💡 The Revelation: Why not use a Raspberry Pi?
 I had a few Raspberry Pis lying around. They have native Ethernet, massive processing power, and a real file system. But when I looked for a "simple" way to control GPIOs like I did in the Arduino world.
 
-##I found:
+##❔I found:
 
 Dead libraries (WiringPi).
 
