@@ -1,8 +1,7 @@
 
 <p align="center"><img src="resources/webpi.png" alt="WebPi Logo" width="100"></p>
 
-<h3 align="center">The Hardware and Software</h3>
-<h3 align="center">Logic Framework</h3>
+<h3 align="center">The Hardware and Software Logic Framework</h3>
 
 
 ---
