@@ -5,8 +5,7 @@
 <h3 align="center">The Hardware and Software Logic Framework</h3>
 
 
----
-**[Auf Deutsch lesen 🇩🇪](README_DE.md)**
+**[🇩🇪](README_DE.md)**
 ---
 
 
