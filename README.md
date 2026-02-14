@@ -8,7 +8,7 @@
 **[🇩🇪](README_DE.md)**
 ---
 
-**[story of WebPi](STORY.md)**
+**[Story of WebPi](STORY.md)**
 
 **🚀 WebPi the bridge between modern Linux and your hardware projects.**
 
