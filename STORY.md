@@ -60,5 +60,5 @@ Easy Maintenance: If I want to change a code or a timing, I do it via the WebPi 
 Full Control: From the Schurter Keypad to the VL53L0X laser checking if the car is inside.
 
 <p align="center">
-  <img src="resources/garagepi.jpg" alt="GaragePi">
+  <img src="resources/garagepi.jpg" alt="GaragePi" width="300" height"400">
 </p>
