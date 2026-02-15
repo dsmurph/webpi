@@ -61,7 +61,7 @@ WebPi/
 WebPi makes binary logic visible. The actuators example shows directly how the internal 8-bit mask corresponds with the web interface.
 
 
-<img src="resources/actuators.jpg" alt= “WebPi Actuators” width="50%" height="50%">
+<img src="resources/actuators.jpg" alt=“WebPi Actuators” width="50%" height="50%">
 *Clarity through visualization: Bitmask states in real-time.*
 
 
