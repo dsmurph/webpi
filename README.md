@@ -5,7 +5,7 @@
 <h3 align="center">WebPi the Hardware and Software Logic Framework</h3>
 <br/><br/>
 
-<div><h6><a href="README_DE.md">This in German</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
+<div><h6><a href="README_DE.md">German verson</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
 ---
 
