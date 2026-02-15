@@ -28,13 +28,32 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
 
 ## ✨ Highlights
 
-* **🌐 Autarkes Ökosystem:** Integrierter HTTP-Server und modulares Core-System. Kein externer Webserver wie Apache oder Nginx erforderlich.
-* **🔢 Bitmasken-Logik:**    Effizient, vorhersehbar und einfach zu visualisieren. Die Handhabung von 8-Bit- oder 16-Bit-Zuständen bleibt im gesamten System konsistent.
-* **🛠 Modulare Power:**     Nutze nur, was du brauchst. Das Benutzerfreudliche WebPiEasy, mit vielen vereinfachten Wrapper Funktionen. Von Hardware-Modulen Expander, Funkmodulen und Entfernungsmesser bis zu einfach verständlichen Board-Treibern wie SPI, I2C und UART.
-* **🔌 GPIO-Steuerung:**     WebPi bringt seine eigene einfachgehaltene GPIO-Lib mit. Konfigurieren Output/Input, Schreiben/Lesen setPin/getPin und eine kleine Interrupt-Funktion ist auch dabei.
-* **📖 Dein Fortschritt**    Viele WebPi-Funktionen bedienen dich per Default-Parameter und können mit eigenen Werten angepasst werden.
-* **🛟 WebPi-Start:**        Ein Bash-basiertes Kontrollzentrum, das Abhängigkeiten, Builds auf Knopfdruck verwaltet. Für den einfachen Start, baut es euch die Kontroll und Lernplattform WebPiUI mit der ihr dann voll einsteigen könnt. Examples bauen und Code mit der visuellen Weboberfläche vergleichen, was funktioniert wie und warum.
-* **⚠️ WebPi-Apps:**         Apps aus System und eigenen Bibliotheken, zum sofort loslegen. Passe dir die Applikationen an deine Bedürfnisse an und mache sie zu deinem Projekt.
+* **🌐 Autarkes Ökosystem:**
+     - Integrierter HTTP-Server und modulares Core-System. Kein externer Webserver wie Apache oder Nginx erforderlich.
+
+* **🔢 Bitmasken-Logik:**
+     - Effizient, vorhersehbar und einfach zu visualisieren.
+     - Die Handhabung von 8-Bit- oder 16-Bit-Zuständen bleibt im gesamten System konsistent.
+
+* **🛠 Modulare Power:**
+     - Nutze nur, was du brauchst.
+     - Das Benutzerfreudliche WebPiEasy, mit vielen vereinfachten Wrapper Funktionen.
+     - Von Hardware-Modulen Expander, Funkmodulen und Entfernungsmesser bis zu einfach verständlichen Board-Treibern wie SPI, I2C und UART.
+
+* **🔌 GPIO-Steuerung:**
+     - WebPi bringt seine eigene einfachgehaltene GPIO-Lib mit.
+     - Konfigurieren Output/Input, Schreiben/Lesen setPin/getPin und eine kleine Interrupt-Funktion ist auch dabei.
+
+* **📖 Dein Fortschritt**
+     - Viele WebPi-Funktionen bedienen dich per Default-Parameter und können mit eigenen Werten angepasst werden.
+
+* **🛟 WebPi-Start:**
+     - Ein Bash-basiertes Kontrollzentrum, das Abhängigkeiten, Builds auf Knopfdruck verwaltet.
+     - Für den einfachen Start, baut es euch die Kontroll und Lernplattform WebPiUI mit der ihr dann voll einsteigen könnt.
+     - Examples bauen und Code mit der visuellen Weboberfläche vergleichen, was funktioniert wie und warum.
+
+* **⚠️ WebPi-Apps:**
+     - Apps aus System und eigenen Bibliotheken, zum sofort loslegen. Passe dir die Applikationen an deine Bedürfnisse an und mache sie zu deinem Projekt.
 
 ---
 
