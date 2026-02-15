@@ -1,14 +1,13 @@
 
-<p align="center">
+<div align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
-</p>
-<h3 align="center">The Hardware and Software Logic Framework</h3>
+</div>
+<h3 align="center">WebPi the Hardware and Software Logic Framework</h3>
+<br>
 
+<div><h6><a href="STORY.md">German</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
-**[🇩🇪](README_DE.md)**
 ---
-
-**[Story of WebPi](STORY.md)**
 
 **🚀 WebPi the bridge between modern Linux and your hardware projects.**
 
@@ -53,28 +52,27 @@ WebPi/
 │  ├─ webpidrivers/    # Basic drivers for GPIO controllers and pin control.
 │  └─ webpieasy/       # A collection of wrappers to facilitate your entry. Simple functions, short names, without hiding the internal C++ core.
 ├─ examples/        # From "Hello WebPi" (the skeleton) to SVG temperature graphs and hands-on bitmask handling.
-└─ webpiStart       # The "Swiss Army Knife" for your first steps with WebPi.
+└─ webpistart       # The "Swiss Army Knife" for your first steps with WebPi.
 ```
 ---
 
 🔢 Hands-on Bitmask Concept
 WebPi makes binary logic visible. The actuators example shows directly how the internal 8-bit mask corresponds with the web interface.
 
-
-<img src="resources/actuators.jpg" alt=“WebPi Actuators” width="50%" height="50%"/>
-
-*Clarity through visualization: Bitmask states in real-time.*
-
+<div align="center">
+   <br><br><img src="resources/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br><br>
+   *Clarity through visualization: Bitmask states in real-time.*
+</div>
 
 ---
 
 📈 Ready for Real Data
 Whether it's temperature trends or system logs – WebPi already provides the tools in its core to not only process data but also present it attractively.
 
-
-![WebPi Temperature Graph](resources/tempsensor.jpg){:height="100px" width="100px"}.
-*Example of a sensor integration with SVG charts and logbook function.*
-
+<div align="center">
+   <br><br><img src="resources/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br><br>
+   *Example of a sensor integration with SVG charts and logbook function.*
+</div>
 
 ---
 
