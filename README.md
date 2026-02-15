@@ -61,7 +61,8 @@ WebPi/
 WebPi makes binary logic visible. The actuators example shows directly how the internal 8-bit mask corresponds with the web interface.
 
 
-<img src="resources/actuators.jpg" alt=“WebPi Actuators” width="50%" height="50%">
+<img src="resources/actuators.jpg" alt=“WebPi Actuators” width="50%" height="50%"/>
+
 *Clarity through visualization: Bitmask states in real-time.*
 
 
@@ -71,7 +72,7 @@ WebPi makes binary logic visible. The actuators example shows directly how the i
 Whether it's temperature trends or system logs – WebPi already provides the tools in its core to not only process data but also present it attractively.
 
 
-![WebPi Temperature Graph](resources/tempsensor.jpg)
+![WebPi Temperature Graph](resources/tempsensor.jpg){:height="100px" width="100px"}.
 *Example of a sensor integration with SVG charts and logbook function.*
 
 
