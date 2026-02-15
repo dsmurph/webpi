@@ -28,13 +28,30 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 
 ## ✨ Highlights
 
-* **🌐 Self-Contained Ecosystem:** Integrated HTTP server and modular core system. No external web server like Apache or Nginx required.
-* **🔢 Bitmask Logic:** Efficient, predictable, and easy to visualize. Handling of 8-bit or 16-bit states remains consistent throughout the system.
-* **🛠 Modular Power:** Use only what you need. The user-friendly **WebPiEasy** offers many simplified wrapper functions. From hardware modules (expanders, radio modules, distance sensors) to easy-to-understand board drivers like SPI, I2C, and UART.
-* **🔌 GPIO Control:** WebPi comes with its own simplified GPIO library. Configure Output/Input, Read/Write (setPin/getPin), and even a small interrupt function is included.
-* **📖 Your Progress:** Many WebPi functions serve you with default parameters but can be customized with your own values.
-* **🛟 WebPi-Start:** A bash-based control center that manages dependencies and builds at the touch of a button. For an easy start, it builds the control and learning platform **WebPiUI**, allowing you to dive right in. Build examples and compare the code with the visual web interface—understand what works, how, and why.
-* **⚠️ WebPi-Apps:** Ready-to-use applications from system and custom libraries. Adapt the applications to your needs and make them your own project.
+* **🌐 Self-Contained Ecosystem:**
+     - Integrated HTTP server and modular core system. No external web server like Apache or Nginx required.
+       
+* **🔢 Bitmask Logic:**
+     - Efficient, predictable, and easy to visualize. Handling of 8-bit or 16-bit states remains consistent throughout the system.
+       
+* **🛠 Modular Power:**
+     - Use only what you need. The user-friendly **WebPiEasy** offers many simplified wrapper functions.
+     - From hardware modules (expanders, radio modules, distance sensors) to easy-to-understand board drivers like SPI, I2C, and UART.
+       
+* **🔌 GPIO Control:**
+     - WebPi comes with its own simplified GPIO library.
+     - Configure Output/Input, Read/Write (setPin/getPin), and even a small interrupt function is included.
+       
+* **📖 Your Progress:**
+     - Many WebPi functions serve you with default parameters but can be customized with your own values.
+       
+* **🛟 WebPi-Start:**
+     - A bash-based control center that manages dependencies and builds at the touch of a button.
+     - For an easy start, it builds the control and learning platform **WebPiUI**, allowing you to dive right in.
+     - Build examples and compare the code with the visual web interface—understand what works, how, and why.
+       
+* **⚠️ WebPi-Apps:**
+     - Ready-to-use applications from system and custom libraries. Adapt the applications to your needs and make them your own project.
 
 ---
 
