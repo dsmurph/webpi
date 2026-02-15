@@ -1,14 +1,13 @@
 
-<p align="center">
+<div align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
-</p>
-<h3 align="center">Das Hardware und Software-Logik Framework</h3>
+</div>
+<h3 align="center">WebPi das Hardware und Software-Logik Framework</h3>
+<br>
 
+<div><h6><a href="STORY.md">English version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
-**[ 🇺🇸](README.md)**
 ---
-
-**[Story of WebPi](STORY.md)**
 
 **🚀 WebPi die Brücke zwischen modernem Linux und deinen Hardware-Projekten.**
 
@@ -63,16 +62,20 @@ WebPi/
 ## 🔢 Das Bitmasken-Konzept zum Anfassen
 WebPi macht binäre Logik sichtbar. Das Example `actuators` zeigt direkt, wie die interne 8-Bit Maske mit der Weboberfläche korrespondiert.
 
-![WebPi Actuators](resources/actuators.jpg)
-*Klarheit durch Visualisierung: Bitmasken-Zustände in Echtzeit.*
+<div align="center">
+   <br><br><img src="resources/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br><br>
+   Klarheit durch Visualisierung: Bitmasken-Zustände in Echtzeit.
+</div>
 
 ---
 
 ## 📈 Bereit für echte Daten
 Egal ob Temperaturverläufe oder System-Logs – WebPi bietet bereits im Kern die Werkzeuge, um Daten nicht nur zu verarbeiten, sondern auch ansprechend zu präsentieren.
 
-![WebPi Temperature Graph](resources/tempsensor.jpg)
-*Beispiel einer Sensor-Integration mit SVG-Charts und Logbuch-Funktion.*
+<div align="center">
+   <br><br><img src="resources/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br><br>
+   Beispiel einer Sensor-Integration mit SVG-Charts und Logbuch-Funktion.
+</div>
 
 ---
 
