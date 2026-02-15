@@ -3,7 +3,7 @@
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
 </div>
 <h3 align="center">WebPi the Hardware and Software Logic Framework</h3>
-<br>
+<br/><br/>
 
 <div><h6><a href="README_DE.md">This in German</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
@@ -60,7 +60,7 @@ WebPi/
 WebPi makes binary logic visible. The actuators example shows directly how the internal 8-bit mask corresponds with the web interface.
 
 <div align="center">
-   <br><br><img src="resources/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br><br>
+   <br/><br/><img src="resources/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br/><br/>
    *Clarity through visualization: Bitmask states in real-time.*
 </div>
 
@@ -70,7 +70,7 @@ WebPi makes binary logic visible. The actuators example shows directly how the i
 Whether it's temperature trends or system logs – WebPi already provides the tools in its core to not only process data but also present it attractively.
 
 <div align="center">
-   <br><br><img src="resources/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br><br>
+   <br/><br/><img src="resources/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br/><br/>
    *Example of a sensor integration with SVG charts and logbook function.*
 </div>
 
