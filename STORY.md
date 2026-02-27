@@ -16,6 +16,7 @@ No internet, no updates, no drama. It worked for years without a single reboot. 
 🏚️ The Hype:
 
 Enter Smart Home & The ESP32
+
 When Smart Home became the "next big thing," I decided my garage needed an upgrade.
 I wanted to see everything in Home Assistant "Is the door open?" "Is the car inside?" "Who entered which code?"
 I swapped the old hardware for an ESP32 and put everything into a nice new housing.
