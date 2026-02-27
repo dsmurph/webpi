@@ -1,40 +1,46 @@
  ##########  WebPi  sources.list  ##########
-#               @author Kayo                #
+#               @author Kay Donau              #
 #               @license MIT                #
  ###########################################
 
 # Last sources.list update
-  WP-State 2026.02.13
+  WP-State 2026.02.27
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
-  WebPiUI         0.2.0      ui             in_progressl
+  WebPiUI         0.2.0      webui             in_progressl
   WebPiStart      0.9.0      tool           ready
-  WebPiEasy       0.9.8      helper         ready
+  WebPiEasy       0.9.8      wrapper        ready
+    - wp_out
+    - wp_system
+    - wp_time
+    - wp_string
+    - wp_math
 -
   wp_gpio_v2      0.8.5      driver         ready
   wp_gpiod_wrap   0.8.0      driver         ready
 -
-  wp-logbook      0.2.0      integration    in_progress
+  wp-logbook      0.9.8      integration    redy
+  wp-counter      0.9.9      integration    redy
   wp-mqtt         0.2.0      integration    in_progress
 -
   wp-mcp23017     0.9.8      device         redy
   wp-cc1101       0.3.0      device         in_progress
   wp-vl53l0x      0.9.9      device         ready      
 -
-  wp-i2c          0.9.0      bus            ready
-  wp-spi          0.9.0      bus            ready
-  wp-uart         0.7.0      bus            in_progress
+  wp-i2c          0.9.8      bus            ready
+  wp-spi          0.9.8      bus            ready
+  wp-uart         0.9.8      bus            readx
 -
-  wp_hellowebpi   0.9.8      example        ready
-  wp_hostinfo     0.9.8      example        ready
-  wp_actuatord    0.9.8      example        ready
-  wp_tempsensor   0.9.8      example        ready
-  wp_shutter      0.9.8      example        ready
+  wp_hellowebpi   0.9.9      example        ready
+  wp_hostinfo     0.9.9      example        ready
+  wp_actuatord    0.9.9      example        ready
+  wp_tempsensor   0.9.9      example        ready
+  wp_shutter      0.9.9      example        ready
 -
-  wp_tellme       0.9.0      example        ready
-  wp_timebreak    0.9.0      example        ready
-  wp_timers       0.9.0      example        ready
-  wp_hostinfo     0.9.0      example        ready
+  wp_tellme       0.9.9      example        ready
+  wp_timebreak    0.9.9      example        ready
+  wp_timers       0.9.9      example        ready
+  wp_hostinfo     0.9.9      example        ready
 
 # https://github.com/dsmurph/webpi
