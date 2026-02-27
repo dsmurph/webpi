@@ -7,6 +7,7 @@
 🖥️ The Beginning:
 
 The Reliable "Stone Age"
+
 Years ago, I built a rock-solid access control system for my garage and side door.
 It was powered by an ATtiny84 for the keypad and an ATtiny2313 as the master.
 No internet, no updates, no drama. It worked for years without a single reboot. It was simple, but it was "dumb."
