@@ -8,7 +8,7 @@
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
-  WebPiUI         0.2.0      webui             in_progressl
+  WebPiUI         0.2.0      webui          in_progressl
   WebPiStart      0.9.0      tool           ready
   WebPiEasy       0.9.8      wrapper        ready
     - wp_out
