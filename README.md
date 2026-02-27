@@ -97,6 +97,7 @@ Clarity through visualization Bitmask states in real-time.
 Whether it's temperature logs or system monitoring, WebPi helps you realize your ideas.
 <div align="center">
 <img src="resources/tempsensor.jpg" alt="WebPi Temperature Graphs" width="40%" height="40%"/>
+  
 Example of sensor integration with SVG charts and logging functionality.
 </div>
 
