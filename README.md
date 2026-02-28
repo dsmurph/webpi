@@ -63,22 +63,23 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 ## 🧱 Architecture Overview
 WebPi is modular and clearly structured. The extensions are not hardlinked, meaning they can also be used for your own independent purposes.
 
-```text
-
-WebPi/
-├─ core/            # Basic syntax structure (Arduino/Pico style), User API, internal bitmasks, webserver
-├─ apps/            # Central directory for WebPi applications to use, extend, and customize. 
-├─ docs/            # First step advanced function descriptions and project information.
-├─ extensions/      # Extensions to make your life easier.
-│  ├─ webpidevices/    # Popular hardware modules supported and expanded over time.
-│  ├─ webpimodules/    # Board tools with simple and intuitive interfaces.
-│  ├─ webpidrivers/    # Base drivers for GPIO controllers and pin management. 
-│  └─ webpieasy/       # A collection of wrappers for an easy start. Simple functions, memorable names, without hiding the C++ core.
-├─ examples/        # From "Hello WebPi" to SVG temperature graphs and handson bitmask usage. 
-└─ webpiStart       # Your first step. Checks resolves dependencies, builds WebPiUI, examples and start the binarys.
-
 ```
 
+WebPi/
+├─ core/          # Basic syntax structure in microcontroller style (Arduino/Pico), user API, internal bitmasks, web server
+├─ apps/          # Central directory for using, extending, and customizing WebPi applications. Everything WebPi offers is bundled here.
+├─ docs/          # First steps in using WebPi, extended function descriptions, and information about this project.
+├─ extensions/        # Extensions that make getting started and using WebPi easier.
+│ ├─ devices/        # Common and popular hardware modules are supported and will be expanded over time.
+│ ├─ modules/        # Onboard tools with simple and understandable interfaces.
+│ ├─ drivers/        # Basic drivers for the GPIO controllers and pin control.
+│ ├─ components/  # Input and output components such as keypads, buzzers, buttons, and much more.
+│ ├─ integration/ # Easily integrate logging, file counters, and MQTT into your project, or organize project files.
+│ └─ easy/        # WebPiEasy is a wrapper package designed to make getting started easier. It features simple functions, short, memorable names, and the internal C++ core remains exposed.
+├─ examples/       # From "Hello WebPi," the basic WebPi framework, to SVG temperature graphs and bitmask handling, this is all there for you. Experience the interplay of C++, HTML, JavaScript, and CSS for a perfect result.
+└─ webpiStart      # For your first steps with WebPi. Optionally checks and resolves dependencies. Build and launch WebPiUI examples.
+
+```
 
 ---
 
