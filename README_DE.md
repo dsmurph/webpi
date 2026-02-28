@@ -34,7 +34,7 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
 * **💽 WebPi-RAM:**
      - Echter RAM? Nein, aber ein perfektes Spiegelbild. Ein Speicherriegel für jeden Zweck, kombiniert mit effizienten Funktionen in leichtgewichtiger Bauweise. Mit WebPiEasy wird Hardware-Steuerung zu purem High-Level-Programmieren.
      - Die integrierten Bitmasken zum sofort loslegen.
-     - Bit Manipulation zum Verstehen. Bits schalten oder ganze Werte von Sensoren unterbringen für 8Bit oder 16Bit Zustände.
+     - Bit Manipulation zum Verstehen. Bits schalten oder ganze Werte von Sensoren unterbringen für 8Bit, 16Bit oder sogar 32Bit Zustände.
 
 * **🛠 Modularer Aufbau:**
      - Nutze nur, was du brauchst. Header-only Klassen für jeden Einsatz bereit, ob WebPi oder für eigenständige Projekte, modular und anpassbar.
