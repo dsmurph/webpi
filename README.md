@@ -31,9 +31,10 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 * **🌐 Self-contained Ecosystem:**
      - Integrated HTTP server and modular core system. No external web server like Apache or Nginx required.
 
-* **🔢 Bitmask Logic:**
-     - Builtin bitmasks to get you started instantly.
-     - Bit manipulation designed for understanding. Toggle bits or store entire sensor values for 8bit or 16bit states.
+* **💽 WebPi RAM:**
+     - Real RAM? No, but a perfect mirror image. A memory module for every purpose, combined with efficient functions in a lightweight design. With WebPiEasy, hardware control becomes pure high-level programming.
+     - Integrated bitmasks for getting started right away.
+     - Bit manipulation made easy. Switch bits or store entire sensor values ​​for 8-bit, 16-bit, or even 32-bit states.
 
 * **🛠 Modular Design:**
      - Use only what you need. Header-only classes ready for any use case, whether within WebPi or for standalone projects modular and customizable.
