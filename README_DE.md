@@ -31,7 +31,8 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
 * **🌐 Autarkes Ökosystem:**
      - Integrierter HTTP-Server und modulares Core-System. Kein externer Webserver wie Apache oder Nginx erforderlich.
 
-* **🔢 Bitmasken-Logik:**
+* **💽 WebPi-RAM:**
+     - Echter RAM? Nein, aber ein perfektes Spiegelbild. Ein Speicherriegel für jeden Zweck, kombiniert mit effizienten Funktionen in leichtgewichtiger Bauweise. Mit WebPiEasy wird Hardware-Steuerung zu purem High-Level-Programmieren.
      - Die integrierten Bitmasken zum sofort loslegen.
      - Bit Manipulation zum Verstehen. Bits schalten oder ganze Werte von Sensoren unterbringen für 8Bit oder 16Bit Zustände.
 
