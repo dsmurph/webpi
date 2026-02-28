@@ -64,15 +64,18 @@ Die Erweiterungen sind nicht miteinander verknüpft und können so auch für eig
 
 
 ```text
+
 WebPi/
 ├─ core/            # Syntax-Grundstruktur Microcontroller Style (Arduino/Pico), User-API, interne Bitmasken, Web-Server
 ├─ apps/            # Zentrales Verzeichnis für WebPi Applikationen zum benutzen, erweitern und anpassen. Hier wird alles gebündelt was WebPi hergibt. 
 ├─ docs/            # Erste Schritte im Umgang mit WebPi, erweiterte Funktionsbeschreibungen und Informationen rund um dieses Projekt.
 ├─ extensions/      # Erweiterungen die dir den Einstieg und das "Leben" leichter machen.
-│  ├─ webpidevices/    # Gängige und Beliebte Hardware-Module werden unterstützt und im laufe der Zeit erweitert.
-│  ├─ webpimodules/    # Boardmittel mit einfachen und verständlichen Schnittstellen.
-│  ├─ webpidrivers/    # Basis Treiber für die GPIO Controller und Pin Steuerung. 
-│  └─ webpieasy/       # WebPiEasy ist eine Wrapper-Zusammenstellung die dir den Einstieg erleichtern. Einfachgehaltene Funktionen, kurze Bezeichnungen zum merken und der interne C++ Kern wird nicht versteckt.
+│  ├─ devices/          # Gängige und Beliebte Hardware-Module werden unterstützt und im laufe der Zeit erweitert.
+│  ├─ modules/          # Boardmittel mit einfachen und verständlichen Schnittstellen.
+│  ├─ drivers/          # Basis Treiber für die GPIO Controller und Pin Steuerung. 
+│  ├─ components/       # Ein und Ausgabekomponenten wie Keypad, Buzzer, Taster und vieles mehr.
+│  ├─ integration/      # Verknüpfe sorglos Protokollierung, Datei-Counter, MQTT mit deinem Projekt oder organisiere Projekt-Dateien.
+│  └─ easy/       # WebPiEasy ist eine Wrapper-Zusammenstellung die dir den Einstieg erleichtern. Einfachgehaltene Funktionen, kurze Bezeichnungen zum merken und der interne C++ Kern wird nicht versteckt.
 ├─ examples/        # Von "Hello WebPi" das Grundgerüst von WebPi, bis hin zu SVG-Temperaturgraphen und BitMasken Umgang zum Anfassen. Zusammenspiel von C++, html, Javascript und css für ein perfektes Ergebnis.
 └─ webpiStart       # Für den ersten Schritt mit WebPi. Prüft auf Wunsch Abhängigkeiten und löst sie auf. WebPiUI, Beispiele bauen lassen und starten.
 
