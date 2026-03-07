@@ -105,17 +105,21 @@ Status values, control and access logging overview in Home Assistant.
 That's how I wanted it!
 
 <p align="center">
-  <img src="resources/garagepi.jpg" alt="GaragePi" width="300" height"400">
+  <img src="resources/garagepi/garagepi.jpg" alt="GaragePi" width="300" height"400">
 </p>
 
 <p align="center">
-  <img src="resources/keypad.jpg" alt="GaragePi keypad" width="300" height"400">
+  <img src="resources/garagepi/keypad.jpg" alt="GaragePi keypad" width="300" height"400">
 </p>
 
 <p align="center">
-  <img src="resources/webpi_garagepi.jpg" alt="GaragePi Interface" width="300" height"400">
+  <img src="resources/garagepi/webpi_garagepi.jpg" alt="GaragePi Interface" width="300" height"400">
 </p>
 
 <p align="center">
-  <img src="resources/homeassistent_gpi.jpg" alt="GaragePi HA" width="300" height"400">
+  <img src="resources/garagepi/homeassistent_gpi.jpg" alt="GaragePi HA" width="300" height"400">
+</p>
+
+<p align="center">
+  <img src="resources/garagepi/car_control.jpg" alt="GaragePi HA" width="300" height"400">
 </p>
