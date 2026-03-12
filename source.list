@@ -4,11 +4,11 @@
  ###########################################
 
 # Last sources.list update
-  WP-State 2026.02.27
+  WP-State 2026.03.12
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
-  WebPiUI         0.2.0      webui          in_progressl
+  WebPiCode       0.2.0      vsc-plugin     in_progressl
   WebPiStart      0.9.0      tool           ready
   WebPiEasy       0.9.8      wrapper        ready
     - wp_out
@@ -16,6 +16,7 @@
     - wp_time
     - wp_string
     - wp_math
+    - wp_parse
 -
   wp_gpio_v2      0.8.5      driver         ready
   wp_gpiod_wrap   0.8.0      driver         ready
