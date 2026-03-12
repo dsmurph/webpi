@@ -7,7 +7,7 @@
 
 ---
 
-**🚀 WebPi: The bridge between modern Linux and your hardware projects.**
+**🚀 The bridge between modern Linux and your hardware projects.**
 
 WebPi is a lightweight C++ web interface framework for the Raspberry Pi. It was designed to make sensors, actuators, and device states controllable via a simple HTTP API and your own web interface without the overhead of heavy external frameworks.
 
