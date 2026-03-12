@@ -1,7 +1,7 @@
 <div align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="100">
 </div>
-<h3 align="center">WebPi – The Hardware and Software Logic Framework</h3>
+<h3 align="center">The Hardware and Software Logic Framework</h3>
 <br>
 <div><h6><a href="README_DE.md">German version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
