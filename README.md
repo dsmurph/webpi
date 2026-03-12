@@ -87,7 +87,7 @@ WebPi/
 WebPi makes binary logic visible. Examples like `actuators` or `shutter` demonstrate directly how the internal 8-bit mask interacts with the webinterface.
 
 <div align="center">
-<img src="resources/actuators.jpg" alt="WebPi Actuators" width="40%" height="40%"/>
+<img src="resources/examples/actuators.jpg" alt="WebPi Actuators" width="40%" height="40%"/>
 
 Clarity through visualization Bitmask states in real-time.
 </div>
@@ -98,7 +98,7 @@ Clarity through visualization Bitmask states in real-time.
 📈 Ready for Data
 Whether it's temperature logs or system monitoring, WebPi helps you realize your ideas.
 <div align="center">
-<img src="resources/tempsensor.jpg" alt="WebPi Temperature Graphs" width="40%" height="40%"/>
+<img src="resources/examples/tempsensor.jpg" alt="WebPi Temperature Graphs" width="40%" height="40%"/>
   
 Example of sensor integration with SVG charts and logging functionality.
 </div>
@@ -116,12 +116,12 @@ Stay tuned!
 
 📖 Legal disclaimer and licenses
 
-## Logo & Branding
+Logo & Branding
 
 The WebPi logo is an independent design and not an official graphic of the Raspberry Pi Foundation.
 
-## Legal Disclaimer
+Legal Disclaimer
 Raspberry Pi is a trademark of the Raspberry Pi Foundation. This project is not affiliated with, endorsed by, or associated with the Raspberry Pi Foundation.
 
-## License
+License
 This project is under the [MIT License](LICENSE).
