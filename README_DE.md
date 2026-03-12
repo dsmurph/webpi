@@ -108,3 +108,19 @@ Du kannst die Entwicklung anhand der Source-List mitverfolgen.
 
 
 Stay tuned! 
+
+---
+
+📖 Rechtlicher Hinweis und Lizenzen
+
+Logo & Branding:
+
+Das WebPi-Logo ist ein unabhängiges Design und keine offizielle Grafik der Raspberry Pi Foundation.
+
+Rechtlicher Hinweis:
+
+Raspberry Pi ist eine Marke der Raspberry Pi Foundation. Dieses Projekt steht in keiner Verbindung zur Raspberry Pi Foundation und wird weder von ihr unterstützt noch ist es mit ihr assoziiert.
+
+Lizenz:
+
+Dieses Projekt unterliegt der [MIT-Lizenz](LICENSE).
