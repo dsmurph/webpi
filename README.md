@@ -116,12 +116,11 @@ Stay tuned!
 
 📖 Legal disclaimer and licenses
 
-Logo & Branding
-
+Logo & Branding:
 The WebPi logo is an independent design and not an official graphic of the Raspberry Pi Foundation.
 
-Legal Disclaimer
+Legal Disclaimer:
 Raspberry Pi is a trademark of the Raspberry Pi Foundation. This project is not affiliated with, endorsed by, or associated with the Raspberry Pi Foundation.
 
-License
+License:
 This project is under the [MIT License](LICENSE).
