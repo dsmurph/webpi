@@ -86,7 +86,7 @@ WebPi/
 WebPi macht binäre Logik sichtbar. Examples wie zb. `actuators` oder `shutter` zeigen direkt, wie die interne 8-Bit Maske mit der Weboberfläche zusammen arbeitet.
 
 <div align="center">
-   <br><br><img src="resources/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br><br>
+   <br><br><img src="resources/examples/actuators.jpg" alt=“WebPi Actuators” width="40%" height="40%"/><br><br>
    Klarheit durch Visualisierung: Bitmasken-Zustände in Echtzeit.
 </div>
 
@@ -96,7 +96,7 @@ WebPi macht binäre Logik sichtbar. Examples wie zb. `actuators` oder `shutter` 
 Egal ob Temperaturverläufe oder Überwachung, mit WebPi setzt du deine Ideen um.
 
 <div align="center">
-   <br><br><img src="resources/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br><br>
+   <br><br><img src="resources/examples/tempsensor.jpg" alt=“WebPi Temperature Graphs” width="40%" height="40%"/><br><br>
    Beispiel einer Sensor-Integration mit SVG-Charts und Logbuch-Funktion.
 </div>
 
