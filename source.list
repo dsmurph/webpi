@@ -4,11 +4,11 @@
  ###########################################
 
 # Last sources.list update
-  WP-State 2026.03.12
+  WP-State 2026.03.23
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
-  WebPiCode       0.2.0      vsc-plugin     in_progressl
+  WebPiCode       0.2.0      vscode     in_progress
   WebPiStart      0.9.0      tool           ready
   WebPiEasy       0.9.8      wrapper        ready
     - wp_out
@@ -31,7 +31,7 @@
 -
   wp-i2c          0.9.8      bus            ready
   wp-spi          0.9.8      bus            ready
-  wp-uart         0.9.8      bus            readx
+  wp-uart         0.9.8      bus            ready
 -
   wp_hellowebpi   0.9.9      example        ready
   wp_hostinfo     0.9.9      example        ready
