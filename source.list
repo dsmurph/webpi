@@ -8,7 +8,7 @@
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
-  WebPiCode       0.2.0      vscode     in_progress
+  WebPiCode       0.2.0      vscode         in_progress
   WebPiStart      0.9.0      tool           ready
   WebPiEasy       0.9.8      wrapper        ready
     - wp_out
@@ -21,11 +21,11 @@
   wp_gpio_v2      0.8.5      driver         ready
   wp_gpiod_wrap   0.8.0      driver         ready
 -
-  wp-logbook      0.9.8      integration    redy
-  wp-counter      0.9.9      integration    redy
+  wp-logbook      0.9.8      integration    ready
+  wp-counter      0.9.9      integration    ready
   wp-mqtt         0.2.0      integration    in_progress
 -
-  wp-mcp23017     0.9.8      device         redy
+  wp-mcp23017     0.9.8      device         ready
   wp-cc1101       0.3.0      device         in_progress
   wp-vl53l0x      0.9.9      device         ready      
 -
