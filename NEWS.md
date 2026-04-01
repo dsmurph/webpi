@@ -46,11 +46,11 @@ For the perfect start, **WebPiStart** is recommended.
 <br><br>
 
 #### 🖼️ First glimpses into development
-The Project Wizard
-<div align="center"><img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/></div>
+
+<div align="center">The Project Wizard<br><img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/></div>
 <br><br>
-The new sidebar with full API access.
-<div align="center"><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
+
+<div align="center">The new sidebar with full API access.<br><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
 <br><br>
 
 
