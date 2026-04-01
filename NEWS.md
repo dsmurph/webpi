@@ -48,12 +48,12 @@ Für den perfekten Einstieg wird **WebPiStart** empfohlen.
 #### 🖼️ Ersten Einblicke in die Entwicklung
 Der Project Wizard
 <div align="center">
-<img src="resources/wpc/wpc_newproject.jpg" alt="WebPiCode" width="40%" height="40%"/>
+<img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/>
 </div>
 <br><br>
 Die neue Sidebar mit voller API-Einsicht.
 <div align="center">
-<img src="resources/wpc/wpc_tree.jpg" alt="WebPiCode" width="40%" height="40%"/>
+<img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/>
 </div>
 <br><br>
 
