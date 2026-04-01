@@ -53,5 +53,9 @@ The new sidebar with full API access.
 <div align="center"><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
 <br><br>
 
+
+https://github.com/user-attachments/assets/243fe0ef-2715-438e-9b1e-befcce3a328f
+
+<br><br>
 #### 🏀 Stay tuned!
 WebPi will simplify and quickly help you succeed with your Raspberry Pi projects!
