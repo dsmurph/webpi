@@ -1,61 +1,57 @@
 <div align="center">
-  <img src="resources/webpi.png" alt="WebPi Logo" width="160" height="160">
+   <img src="resources/webpi.png" alt="WebPi Logo" width="160" height="160">
 </div><br>
 <!--<h2 align="center">The Hardware and Software Logic Framework</h2>
 <br>
-<div><h6><a href="README_DE.md">German version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>-->
+<div><h6><a href="README_DE.md">German version</a> |  <a href="STORY.md">Story of WebPi</a></h6></div>-->
 
 
-## 📰 Latest News & Dev-Logs
+ ## 📰 Latest News & Dev Logs
 
-**Update 01.04.2026: WebPiCode Extension Preview!**
-<br><br>
-Es wird mit Hochdruck an **WebPiCode** gearbeitet, der offiziellen VS Code Extension. 
-<br><br>
+ **Update April 1st, 2026: WebPiCode Extension Preview!**
+ <br><br>
+ We are working hard on **WebPiCode**, the official VS Code Extension. 
+ <br><br>
 
-#### 🆕 Der neue Project Wizard
-Erstellt dein Projekt modular per Mausklick:
-  - WebPiEasy: C++ Wrapper im Arduino-Style für schnellen Erfolg.
-  - Driver:    Voller Support für Raspberry SPI, I2C und UART.
-  - Modules:   Logbook, FileTools, FileCounter und mehr.
-  - Devices:   Direkte Integration von CC1101, MCP230 (08/17), VL53L0X etc.
-  - GPIO:      Wahlweise **WPGPIOV2** oder der **WPGPIOD-Standard**.
-  - SYS:       Viele gängige System-Header Funktionen stehen bereit.
-<br><br>
-
-#### 🖥️ Intelligente Sidebar & API-Anbindung
-Die Sidebar erkennt automatisch die **WebPiEasy-API** (out, time, string...) sowie die **System-API** (unistd, stdio, iostream...).
-<br>
-Für die IntelliSense und Tree Handhabung, wurde ein Header-Parser erstellt. Dieser sammelt und formatiert die benötigten Json und Stub Dateien. Zur Umsetzung dienen die Kommentarblöcke der Header nun auch als Datenquelle. So entwickelst du am PC mit der intelligenten Unterstützung des Editors.
+#### 🆕 The new Project Wizard
+Create your project modularly with a single click:
+- WebPiEasy: Arduino-style C++ wrapper for quick success.
+- Drivers: Full support for Raspberry Pi SPI, I2C, and UART.
+- Modules: Logbook, FileTools, FileCounter, and more.
+- Devices: Direct integration of CC1101, MCP230 (08/17), VL53L0X, etc.
+- GPIO: Choose between **WPGPIOV2** or the **WPGPIOD standard**.
+- SYS: Many common system header functions are available.
 <br><br>
 
-#### ❔ Was dich erwartet
-Das Ziel ist ein nahtloser Workflow mit WebPi.
-Das Repo auf den Raspberry klonen, Extension in VS Code installieren und sofort loslegen.
-Alles bleibt optional, es kann auch das native CMake-System genutzt werden.
-Für den perfekten Einstieg wird **WebPiStart** empfohlen.
+#### 🖥️ Intelligent Sidebar & API Integration
+The sidebar automatically detects the **WebPiEasy API** (out, time, string, etc.) as well as the **System API** (unistd, stdio, iostream, etc.).
+ <br>
+For IntelliSense and Tree handling, a header parser has been created. This collects and formats the necessary JSON and stub files. The header comment blocks now also serve as a data source. This allows you to develop on your PC with the editor's intelligent support.
 <br><br>
 
-#### 🔜 Roadmap bis zum Release
-   - Drag & Drop:  Funktionen einfach aus der Sidebar an die gewünschte Stelle im Editor ziehen.
-   - Auto-Header:  Automatische Auflösung und Inkludierung benötigter Header-Abhängigkeiten.
-   - Remote-Sync:  Automatischer Upload der Sourcen via SSH auf den Raspberry Pi.
-   - One-Click  :  Kompilieren und Ausführen der Binaries direkt aus VS Code heraus.
-   - Templates  :  HTML, JS und CSS Templates, um sofort moderne Web-Interfaces für deine Hardware zu bauen.
-   - Examples & Apps: Integration im VS Code Tree. Kompilieren, Ausführen und ausprobieren.
+#### ❔ What to expect
+The goal is a seamless workflow with WebPi.
+Clone the repository to your Raspberry Pi, install the extension in VS Code, and get started right away.
+Everything remains optional; you can also use the native CMake system.
+For the perfect start, **WebPiStart** is recommended.
 <br><br>
 
-#### 🖼️ Ersten Einblicke in die Entwicklung
-Der Project Wizard
-<div align="center">
-<img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/>
-</div>
-<br><br>
-Die neue Sidebar mit voller API-Einsicht.
-<div align="center">
-<img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/>
-</div>
+#### 🔜 Roadmap to release
+- Drag & Drop: Simply drag functions from the sidebar to the desired location in the editor.
+- Auto-Header: Automatic resolution and inclusion of required header dependencies.
+- Remote Sync: Automatically upload source code to your Raspberry Pi via SSH.
+- One-Click: Compile and run binaries directly from within VS Code.
+- Templates: HTML, JS, and CSS templates to instantly build modern web interfaces for your hardware.
+- Examples & Apps: Integration within the VS Code tree. Compile, run, and try it out.
 <br><br>
 
-#### 🏀 Bleib am Ball
-WebPi wird dich bei deinen Projekten auf dem Raspberry Pi vereinfacht und schnell erfolgreich unterstützen!
+#### 🖼️ First glimpses into development
+The Project Wizard
+<div align="center"><img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/></div>
+<br><br>
+The new sidebar with full API access.
+<div align="center"><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
+<br><br>
+
+#### 🏀 Stay tuned!
+WebPi will simplify and quickly help you succeed with your Raspberry Pi projects!
