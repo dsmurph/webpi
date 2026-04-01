@@ -1,6 +1,6 @@
 <div align="center">
   <img src="resources/webpi.png" alt="WebPi Logo" width="160" height="160">
-</div><br><br><br>
+</div><br>
 <!--<h2 align="center">The Hardware and Software Logic Framework</h2>
 <br>
 <div><h6><a href="README_DE.md">German version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>-->
