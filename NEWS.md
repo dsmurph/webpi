@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="resources/webpi.png" alt="WebPi Logo" width="100">
+  <img src="resources/webpi.png" alt="WebPi Logo" width="160" height="160">
 </div><br><br><br>
 <!--<h2 align="center">The Hardware and Software Logic Framework</h2>
 <br>
