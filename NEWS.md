@@ -26,7 +26,7 @@ Create your project modularly with a single click:
 #### 🖥️ Intelligent Sidebar & API Integration
 The sidebar automatically detects the **WebPiEasy API** (out, time, string, etc.) as well as the **System API** (unistd, stdio, iostream, etc.).
  <br>
-For IntelliSense and Tree handling, a header parser has been created. This collects and formats the necessary JSON and stub files. The header comment blocks now also serve as a data source. This allows you to develop on your PC with the editor's intelligent support.
+For IntelliSense and Tree handling, a header parser has been created. This collects and formats the necessary Json and Stub files. The header comment blocks now also serve as a data source. This allows you to develop on your PC with the editor's intelligent support.
 <br><br>
 
 #### ❔ What to expect
