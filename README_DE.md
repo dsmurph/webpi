@@ -4,8 +4,9 @@
 </div>
 <h3 align="center">Das Hardware und Software-Logik Framework</h3>
 <br>
+<br>
+<div><h6><a href="NEWS.md">**NEWS**</a><h6><a href="README.md">English version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
-<div><h6><a href="README.md">English version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
 ---
 
