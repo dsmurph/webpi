@@ -51,10 +51,6 @@ For the perfect start, **WebPiStart** is recommended.
 <br><br>
 
 <div align="center">The new sidebar with full API access.<br><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
-<br><br>
-
-
-https://github.com/user-attachments/assets/e1957725-95c3-430e-bbfa-56bda266ce86
 
 
 <br><br>
