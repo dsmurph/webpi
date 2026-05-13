@@ -6,11 +6,11 @@
 # Last sources.list update
   WP-State 2026.05.13
   
-# Name            Version    Type           Status
-  WebPiCore       0.9.5      core           ready
-  WebPiCode       0.2.0      vscode         in_progress
-  WebPiStart      0.9.0      tool           ready
-  WebPiEasy       0.9.8      wrapper        ready
+# Name            Version    Type           Status           update
+  WebPiCore       0.9.5      core           ready            2026.04
+  WebPiCode       0.2.0      vscode         in_progress      2026.04
+  WebPiStart      0.9.0      tool           ready            2026.03
+  WebPiEasy       0.9.8      wrapper        ready            2026.04
     - wp_out
     - wp_system
     - wp_time
@@ -19,30 +19,39 @@
     - wp_parse
     - wp_json
 -
-  wp_gpio_v2      0.8.5      driver         ready
-  wp_gpiod_wrap   0.8.0      driver         ready
+  wp_gpio_v2      0.8.5      driver         ready            2026.04
+  wp_gpiod_wrap   0.8.0      driver         ready            2026.04
 -
-  wp-logbook      0.9.8      integration    ready
-  wp-counter      0.9.9      integration    ready
-  wp-mqtt         0.2.0      integration    in_progress
+  wp-logbook      0.9.8      modul          ready            2026.04    
+  wp-counter      0.9.9      modul          ready            2026.04
+  wp-mqtt         0.9.0      modul          ready            2026.05
+  wp-minimodbus   0.9.0      modul          ready            2026.05
+  wp-filetools    0.9.0      modul          ready            2026.05
 -
-  wp-mcp23017     0.9.8      device         ready
-  wp-cc1101       0.3.0      device         in_progress
-  wp-vl53l0x      0.9.9      device         ready      
+  wp-mcp23017     0.9.8      device         ready            2026.03
+  wp-cc1101       0.9.0      device         ready            2026.04
+  wp-vl53l0x      0.9.9      device         ready            2026.03 
 -
-  wp-i2c          0.9.8      bus            ready
-  wp-spi          0.9.8      bus            ready
-  wp-uart         0.9.8      bus            ready
+  wp-i2c          0.9.8      bus            ready            2026.05
+  wp-spi          0.9.8      bus            ready            2026.05
+  wp-uart         0.9.8      bus            ready            2026.05
+  wp-tcp_client   0.9.0      net            ready            2026.05
 -
-  wp_hellowebpi   0.9.9      example        ready
-  wp_hostinfo     0.9.9      example        ready
-  wp_actuatord    0.9.9      example        ready
-  wp_tempsensor   0.9.9      example        ready
-  wp_shutter      0.9.9      example        ready
+  marstekpi       0.5.1      wp_app         in_progress      2026.05
+  radiopi         0.2.2      wp_app         in_progress      2026.03
+  jaroliftpi      0.0.9      wp_app         in_progress      2026.01
+  sysmonitor      0.1.1      wp_app         in_progress      2026.01
+  mbscanner       0.6.4      wp_app         in_progress      2026.05
 -
-  wp_tellme       0.9.9      example        ready
-  wp_timebreak    0.9.9      example        ready
-  wp_timers       0.9.9      example        ready
-  wp_hostinfo     0.9.9      example        ready
+  wp_hellowebpi   0.9.9      example        ready            2026.04
+  wp_hostinfo     0.9.9      example        ready            2026.04
+  wp_actuatord    0.9.9      example        ready            2026.04
+  wp_tempsensor   0.9.9      example        ready            2026.04
+  wp_shutter      0.9.9      example        ready            2026.04
+-
+  wp_tellme       0.9.9      example        ready            2026.04
+  wp_timebreak    0.9.9      example        ready            2026.04
+  wp_timers       0.9.9      example        ready            2026.04
+  wp_hostinfo     0.9.9      example        ready            2026.04
 
 # https://github.com/dsmurph/webpi
