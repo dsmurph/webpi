@@ -4,7 +4,7 @@
  ###########################################
 
 # Last sources.list update
-  WP-State 2026.03.23
+  WP-State 2026.05.13
   
 # Name            Version    Type           Status
   WebPiCore       0.9.5      core           ready
@@ -17,6 +17,7 @@
     - wp_string
     - wp_math
     - wp_parse
+    - wp_json
 -
   wp_gpio_v2      0.8.5      driver         ready
   wp_gpiod_wrap   0.8.0      driver         ready
