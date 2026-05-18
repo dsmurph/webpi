@@ -4,7 +4,7 @@
  ###########################################
 
 # Last sources.list update
-  WP-State 2026.05.13
+  WP-State 2026.05.18
   
 # Name            Version    Type           Status           update
   WebPiCore       0.9.5      core           ready            2026.04
@@ -39,6 +39,7 @@
 -
   marstekpi       0.5.1      wp_app         in_progress      2026.05
   radiopi         0.2.2      wp_app         in_progress      2026.03
+  garagepi        0.9.9      wp_app         ready            2026.05
   jaroliftpi      0.0.9      wp_app         in_progress      2026.01
   sysmonitor      0.1.1      wp_app         in_progress      2026.01
   mbscanner       0.6.4      wp_app         in_progress      2026.05
