@@ -3,8 +3,7 @@
 #               @license MIT                #
  ###########################################
 
-# Last sources.list update
-  WP-State 2026.05.18
+# Last sources.list update 2026.05.18
   
 # Name            Version    Type           Status           update
   WebPiCore       0.9.5      core           ready            2026.04
