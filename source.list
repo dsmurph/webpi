@@ -5,7 +5,7 @@
 
   Last-Update 22.07.2026
   
-# Name            Version    Type           Status           Update      Repo
+# Name            Version    Type           Status           Update      Repository
   WebPiCore       1.0.0      core           ready            2026.07
   WebPiCode       0.2.0      vscode         in_progress      2026.04
   WebPiStart      1.0.0      tool           ready            2026.07
