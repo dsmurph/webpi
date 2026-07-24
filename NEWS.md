@@ -31,7 +31,10 @@ once the core foundation is rock solid!
          - Projects: Streamlined creation wizard, project listing, building,
                      start/stop management, and background daemon execution (keep-running mode).
                      
-<table>
+table, th, td {
+  border:none;
+}
+<table border:none;>
   <tr>
     <td><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%" /></td>
     <td><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%" /></td>
