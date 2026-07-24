@@ -30,12 +30,11 @@ once the core foundation is rock solid!
          - Apps: Dedicated app management.
          - Projects: Streamlined creation wizard, project listing, building,
                      start/stop management, and background daemon execution (keep-running mode).
-![Bild 1](resoures/wpstart/wps_main.png) ![Bild 2](resources/wpstart/wps_status.png)
 <div style="display:flex;flex-direction:row;justify-content:space-between;gap:6px;">
-<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%"/></div>
-<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%"/></div>
-<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="20%"/></div>
-<div align="center">Create new Project<br><img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="20%"/></div></div>
+<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%" align="left"/></div>
+<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%" align="left"/></div>
+<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="20%" align="left"/></div>
+<div align="center">Create new Project<br><img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="20%" align="left"/></div></div>
 
 
   🤖 **Libs & Extensions**
