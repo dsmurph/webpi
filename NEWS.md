@@ -33,6 +33,7 @@ once the core foundation is rock solid!
 
 
 <foreignObject>
+<div xmlns="http://www.w3.org/1999/xhtml">
 <style>
 .img {
   display:flex;
