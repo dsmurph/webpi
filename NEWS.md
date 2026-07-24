@@ -32,10 +32,10 @@ once the core foundation is rock solid!
                      start/stop management, and background daemon execution (keep-running mode).
 
 <p float="left">
-<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%" /></div>
-<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%" /></div>
-<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="20%" /></div>
-<div align="center">Create new Project<br><img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="20%" /></div></div>
+<img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%" />
+<img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%" />
+<img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="20%" />
+<img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="20%" />
 </p>
 
   🤖 **Libs & Extensions**
