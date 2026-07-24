@@ -7,7 +7,57 @@
 
 
  ## 📰 Latest News & Dev Logs
+<br><br>
+**Update July 24st, 2026: Dev Update: Refocusing for an Earlier Release!**
+<br><br>
+### 📢 Full concentration on the release
+ 
+    We’ve made a strategic decision to aim for an earlier official release by narrowing
+    our focus onto the **WebPiCore** and its essential surrounding ecosystem.
 
+    To keep our momentum high, **WebPiCode** is being temporarily put on hold.
+    Don't worry — it’s definitely coming, just a bit further down the roadmap once the core foundation is rock solid!
+    
+### 🛠️ What we’re currently working on:
+
+  🔥 **WebPiCore**
+      Bug fixes, performance tuning, and stability improvements.
+
+  ⌛ **WebPiStart** (CLI Tool)
+      Main Menu Restructuring:
+         - Apps: Dedicated app management.
+         - Projects: Streamlined creation wizard, project listing, building, start/stop management, and background daemon execution (keep-running mode).
+         
+         <div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.jpg" alt="WebPiStart Main-Menu" width="40%" height="40%"/></div>
+         <div align="center">Binary status.<br><img src="resources/wpstart/wps_status.jpg" alt="WebPiStart Binary status" width="40%" height="40%"/></div>
+         <div align="center">Project-Menu.<br><img src="resources/wpstart/wps_promenu.jpg" alt="WebPiStart Project-Menu" width="40%" height="40%"/></div>
+         <div align="center">Create new Project<br><img src="resources/wpstart/wps_newpro.jpg" alt="WebPiStart Create new Project" width="40%" height="40%"/></div>
+
+
+  🤖 **Libs & Extensions**
+      - Devices: Refactoring and updating drivers for MCP23017/08, VL53L0X, and CC1101.
+      - Drivers: New wp_udp_client driver implementation.
+      - Components: Comprehensive review and cleanup across all components.
+
+  🎯 **Examples**
+      - Buzzer sound integration.
+      - High-speed GPIO Benchmark.
+      - Radio Switch (a first sneak peek into the upcoming RadioPi app!).
+
+  📖 **Documentation**
+      - Updated main README.md including branching model explanations.
+      - Adding detailed sub-module README files for better developer onboarding.
+
+  🔮 **Visions for the Future**
+      - WebPiCode & WebPi IDE: Seamless, integrated C++ development environments.
+      - WebPi App Hub: A central platform to discover, install, and share custom WebPi apps with the community.
+      
+### ℹ️
+   We attach great importance to delivering WebPi in a polished, reliable state.
+   There is still plenty of work ahead, but we are pushing hard toward our first release.
+   
+   Stay tuned! 🚀
+ <br><br>
  **Update April 1st, 2026: WebPiCode Extension Preview!**
  <br><br>
  We are working hard on **WebPiCode**, the official VS Code Extension. 
