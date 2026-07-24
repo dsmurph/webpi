@@ -66,8 +66,129 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
 ---
 
 ## 🧱 Architektur-Überblick
-WebPi ist modular und übersichtlich aufgebaut. Die Erweiterungen sind nicht fest gekoppelt, sodass sie auch für eigene, unabhängige Zwecke genutzt werden können. Binde einfach die gewünschten Bibliotheken in dein Projekt ein und füge sie der CMakeLists hinzu – nur die, die du tatsächlich benötigst.
+WebPi ist modular und übersichtlich aufgebaut. Die Erweiterungen sind nicht fest gekoppelt, sodass sie auch für eigene, unabhängige Zwecke genutzt werden können. Binde einfach die gewünschten Bibliotheken in dein Projekt ein und füge sie der CMakeLists hinzu. **Nur die, die du tatsächlich benötigst.**
 
+```
+
+webpi
+├── CMakeLists.txt
+├── core
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── webpi.hpp
+│   │   └── webpi_server.hpp
+│   └── src
+│       ├── webpi.cpp
+│       └── webpi_server.cpp
+├── docs
+│   └── README.md
+├── examples
+│   ├── actuators
+│   ├── buzzer
+│   ├── CMakeLists.txt
+│   ├── gethost
+│   ├── gpio
+│   ├── hellowebpi
+│   ├── radioswitch
+│   ├── shutter
+│   ├── tempsensor
+│   └── webpieasy
+├── lib
+│   ├── CMakeLists.txt
+│   ├── extensions
+│   │   ├── CMakeLists.txt
+│   │   ├── components
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── inputs
+│   │   │   └── outputs
+│   │   ├── devices
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_cc1101.hpp
+│   │   │   ├── wp_mcp23017_8.hpp
+│   │   │   └── wp_vl53l0x.hpp
+│   │   ├── driver
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_i2c.hpp
+│   │   │   ├── wp_spi.hpp
+│   │   │   ├── wp_tcp_client.hpp
+│   │   │   └── wp_uart.hpp
+│   │   ├── gpio
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_gpiod_wrap.hpp
+│   │   │   └── wp_gpio_v2.hpp
+│   │   ├── module
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_counter.hpp
+│   │   │   ├── wp_filetools.hpp
+│   │   │   ├── wp_logbook.hpp
+│   │   │   ├── wp_minimodbus.hpp
+│   │   │   └── wp_mqtt.hpp
+│   │   └── README.md
+│   └── wpeasy
+│       ├── CMakeLists.txt
+│       ├── README_DE.md
+│       ├── README.md
+│       ├── wp_easy.hpp
+│       ├── wp_json.hpp
+│       ├── wp_math.hpp
+│       ├── wp_out.hpp
+│       ├── wp_parse.hpp
+│       ├── wp_string.hpp
+│       ├── wp_system.hpp
+│       └── wp_time.hpp
+├── projects
+│   └── README.md
+├── resources
+│   ├── benchmark
+│   ├── images
+│   ├── tools
+│   ├── webpistart
+│   ├── webpicode
+│   └── README
+├── source.list
+├── templates
+│   ├── cmake
+│   ├── libs
+│   ├── README.md
+│   ├── web
+│   └── webpi
+└── webpistart
+     ├── bash
+     │   ├── apps.bash
+     │   ├── build.bash
+     │   ├── conf.bash
+     │   ├── dependencies.bash
+     │   ├── examples.bash
+     │   ├── main.bash
+     │   ├── msg.bash
+     │   ├── projects.bash
+     │   ├── sources.bash
+     │   └── status.bash
+     ├── CHANGELOG.md
+     ├── data
+     │   └── remote_source.list
+     ├── README.md
+     ├── templates
+     │   ├── base.cpp
+     │   ├── cmakelists.txt
+     │   └── web
+     │       ├── app.js
+     │       ├── images
+     │       ├── index.html
+     │       └── style.css
+     └── webpistart.sh
+
+
+```
+
+---
+
+🔢 Das Bitmasken-Konzept
+WebPi macht Binärlogik sichtbar. Beispiele wie `actuators` oder `shutter` demonstrieren direkt, wie die interne 8-Bit-Maske mit der Weboberfläche interagiert.
+
+
+<div align="center">
+<img src="resources/examples/actuators.jpg" alt="WebPi Actuators" width="40%" height="40%"/>
 
 
 Klarheit durch Visualisierung: Bitmasken-Zustände in Echtzeit.
