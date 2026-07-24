@@ -7,7 +7,7 @@
 
 
  ## 📰 Latest News & Dev Logs
-<br><br>
+ 
 **Update July 24st, 2026: Dev Update: Refocusing for an Earlier Release!**
 <br><br>
 ### 📢 Full concentration on the release
