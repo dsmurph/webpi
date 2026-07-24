@@ -12,12 +12,14 @@
 <br><br>
 ### 📢 Full concentration on the release
  
-    We’ve made a strategic decision to aim for an earlier official release by narrowing
-    our focus onto the **WebPiCore** and its essential surrounding ecosystem.
+We’ve made a strategic decision to aim for an earlier official release by narrowing
+our focus onto the **WebPiCore** and its essential surrounding ecosystem.
 
-    To keep our momentum high, **WebPiCode** is being temporarily put on hold.
-    Don't worry — it’s definitely coming, just a bit further down the roadmap once the core foundation is rock solid!
-    
+To keep our momentum high, **WebPiCode** is being temporarily put on hold.
+Don't worry — it’s definitely coming, just a bit further down the roadmap
+once the core foundation is rock solid!
+
+
 ### 🛠️ What we’re currently working on:
 
   🔥 **WebPiCore**
@@ -26,12 +28,13 @@
   ⌛ **WebPiStart** (CLI Tool)
       Main Menu Restructuring:
          - Apps: Dedicated app management.
-         - Projects: Streamlined creation wizard, project listing, building, start/stop management, and background daemon execution (keep-running mode).
+         - Projects: Streamlined creation wizard, project listing, building,
+                     start/stop management, and background daemon execution (keep-running mode).
          
-         <div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.jpg" alt="WebPiStart Main-Menu" width="40%" height="40%"/></div>
-         <div align="center">Binary status.<br><img src="resources/wpstart/wps_status.jpg" alt="WebPiStart Binary status" width="40%" height="40%"/></div>
-         <div align="center">Project-Menu.<br><img src="resources/wpstart/wps_promenu.jpg" alt="WebPiStart Project-Menu" width="40%" height="40%"/></div>
-         <div align="center">Create new Project<br><img src="resources/wpstart/wps_newpro.jpg" alt="WebPiStart Create new Project" width="40%" height="40%"/></div>
+<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.jpg" alt="WebPiStart Main-Menu" width="40%" height="40%"/></div>
+<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.jpg" alt="WebPiStart Binary status" width="40%" height="40%"/></div>
+<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_promenu.jpg" alt="WebPiStart Project-Menu" width="40%" height="40%"/></div>
+<div align="center">Create new Project<br><img src="resources/wpstart/wps_newpro.jpg" alt="WebPiStart Create new Project" width="40%" height="40%"/></div>
 
 
   🤖 **Libs & Extensions**
