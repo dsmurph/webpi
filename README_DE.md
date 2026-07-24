@@ -69,7 +69,6 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
 WebPi ist modular und übersichtlich aufgebaut. Die Erweiterungen sind nicht fest gekoppelt, sodass sie auch für eigene, unabhängige Zwecke genutzt werden können. Binde einfach die gewünschten Bibliotheken in dein Projekt ein und füge sie der CMakeLists hinzu. **Nur die, die du tatsächlich benötigst.**
 
 ```
-
 webpi
 ├── CMakeLists.txt
 ├── core
@@ -177,7 +176,6 @@ webpi
      │       ├── index.html
      │       └── style.css
      └── webpistart.sh
-
 
 ```
 
