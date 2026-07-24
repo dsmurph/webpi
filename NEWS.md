@@ -31,12 +31,14 @@ once the core foundation is rock solid!
          - Projects: Streamlined creation wizard, project listing, building,
                      start/stop management, and background daemon execution (keep-running mode).
 
-<p float="left">
-<img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="150px" />
-<img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="150px" />
-<img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="150px" />
-<img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="150px" />
-</p>
+<div aling="center">
+   <p float="left">
+     <img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="150px" />
+     <img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="150px" />
+     <img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="150px" />
+     <img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="150px" />
+   </p>
+</div>
 
   🤖 **Libs & Extensions**
       - Devices: Refactoring and updating drivers for MCP23017/08, VL53L0X, and CC1101.
@@ -100,12 +102,13 @@ For the perfect start, **WebPiStart** is recommended.
 <br><br>
 
 #### 🖼️ First glimpses into development
-
-<div align="center">The Project Wizard<br><img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="40%" height="40%"/></div>
-<br><br>
-
-<div align="center">The new sidebar with full API access.<br><img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="40%" height="40%"/></div>
-
+<div align="center">The Project Wizard</div><div align="center">The new sidebar with full API access</div>
+<div aling="center">
+   <p float="left">
+    <img src="resources/wpcode/wpc_newproject.jpg" alt="WebPiCode new Project" width="20%" height="20%"/>
+    <img src="resources/wpcode/wpc_tree.jpg" alt="WebPiCode Tree" width="20%" height="20%"/>
+   </p>
+</div>
 
 <br><br>
 #### 🏀 Stay tuned!
