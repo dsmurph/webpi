@@ -31,10 +31,10 @@ once the core foundation is rock solid!
          - Projects: Streamlined creation wizard, project listing, building,
                      start/stop management, and background daemon execution (keep-running mode).
          
-<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.jpg" alt="WebPiStart Main-Menu" width="40%" height="40%"/></div>
-<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.jpg" alt="WebPiStart Binary status" width="40%" height="40%"/></div>
-<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_promenu.jpg" alt="WebPiStart Project-Menu" width="40%" height="40%"/></div>
-<div align="center">Create new Project<br><img src="resources/wpstart/wps_newpro.jpg" alt="WebPiStart Create new Project" width="40%" height="40%"/></div>
+<div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="40%" height="40%"/></div>
+<div align="center">Binary status.<br><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="40%" height="40%"/></div>
+<div align="center">Project-Menu.<br><img src="resources/wpstart/wps_promenu.png" alt="WebPiStart Project-Menu" width="40%" height="40%"/></div>
+<div align="center">Create new Project<br><img src="resources/wpstart/wps_newpro.png" alt="WebPiStart Create new Project" width="40%" height="40%"/></div>
 
 
   🤖 **Libs & Extensions**
