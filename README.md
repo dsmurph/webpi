@@ -31,10 +31,11 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 * **🌐 Self-contained Ecosystem:**
      - Integrated HTTP server and modular core system. No external web server like Apache or Nginx required.
 
-* **💽 WebPi RAM:**
+* **💽 WebPiMemory:**
      - Real RAM? No, but a perfect mirror image. A memory module for every purpose, combined with efficient functions in a lightweight design. With WebPiEasy, hardware control becomes pure high-level programming.
      - Integrated bitmasks for getting started right away.
-     - Bit manipulation made easy. Switch bits or store entire sensor values ​​for 8-bit, 16-bit, or even 32-bit states.
+     - Bit manipulation made easy. Switch bits or store entire sensor values ​​for 8-bit or 16-bit.
+     - WebPiMemory is consolidated into a single central 64-bit register. This high-speed design is specifically optimized for resource-efficient operation on embedded systems such as the Raspberry Pi.
 
 * **🛠 Modular Design:**
      - Use only what you need. Header-only classes ready for any use case, whether within WebPi or for standalone projects modular and customizable.
@@ -42,7 +43,7 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
      - From hardware modules (expanders, radio modules, rangefinders) to easy to understand board drivers like SPI, I2C, and UART.
 
 * **🔌 GPIO Control:**
-     - Use WebPiGPIO V2, the libgpiod + wrapper, or other GPIO libs you decide what fits your needs.
+     - Use WebPiGPIOV2, the libgpiod WebPiGPIOD-Wrapper, or other GPIO libs you decide what fits your needs.
      - Configure via `configPin()`, read/write via `setPin()` / `getPin()`. Control GPIOs with short and concise syntax.
 
 * **📖 Your Progress:**
@@ -50,9 +51,9 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 
 * **🛟 WebPi-Start:**
      - A Bash based, menu driven startup tool that manages dependencies and builds at the touch of a button.
-     - For an easy start it builds the **WebPiUI** control and learning platform allowing you to dive right in.
-     - Build examples and compare code with the visual web interface see what works, how, and why.
-
+     - Create **custom project** structures at the push of a button, using templates for C++, HTML, CSS, JavaScript, and CMakeLists.
+     - Build the future ones WebPi Apps and Examples, compare code with the visual web interface see what works, how, and why.
+     - **Central control** start/stop, or let the binaries continue running in the background.
 * **⚠️ WebPi-Apps:**
      - Ready to use apps. Adapt the applications to your needs and turn them into your own project.
      - Everything C++, system headers and WebPi have to offer finds its place here for immediate use or as inspiration for your visions.
@@ -61,23 +62,118 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 ---
 
 ## 🧱 Architecture Overview
-WebPi is modular and clearly structured. The extensions are not hardlinked, meaning they can also be used for your own independent purposes.
+WebPi is modular and clearly structured. The extensions are not hardlinked, meaning they can also be used for your own independent purposes. You simply need to include the available libraries in your project and add them to the CMakeLists—only the ones you actually need.
 
 ```
 
-WebPi/
-├─ core/          # Basic syntax structure in microcontroller style (Arduino/Pico), user API, internal bitmasks, web server
-├─ apps/          # Central directory for using, extending, and customizing WebPi applications. Everything WebPi offers is bundled here.
-├─ docs/          # First steps in using WebPi, extended function descriptions, and information about this project.
-├─ extensions/        # Extensions that make getting started and using WebPi easier.
-│ ├─ devices/        # Common and popular hardware modules are supported and will be expanded over time.
-│ ├─ modules/        # Onboard tools with simple and understandable interfaces.
-│ ├─ drivers/        # Basic drivers for the GPIO controllers and pin control.
-│ ├─ components/  # Input and output components such as keypads, buzzers, buttons, and much more.
-│ ├─ integration/ # Easily integrate logging, file counters, and MQTT into your project, or organize project files.
-│ └─ easy/        # WebPiEasy is a wrapper package designed to make getting started easier. It features simple functions, short, memorable names, and the internal C++ core remains exposed.
-├─ examples/       # From "Hello WebPi," the basic WebPi framework, to SVG temperature graphs and bitmask handling, this is all there for you. Experience the interplay of C++, HTML, JavaScript, and CSS for a perfect result.
-└─ webpiStart      # For your first steps with WebPi. Optionally checks and resolves dependencies. Build and launch WebPiUI examples.
+webpi
+├── CMakeLists.txt
+├── core
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   ├── webpi.hpp
+│   │   └── webpi_server.hpp
+│   └── src
+│       ├── webpi.cpp
+│       └── webpi_server.cpp
+├── docs
+│   └── README.md
+├── examples
+│   ├── actuators
+│   ├── buzzer
+│   ├── CMakeLists.txt
+│   ├── gethost
+│   ├── gpio
+│   ├── hellowebpi
+│   ├── radioswitch
+│   ├── shutter
+│   ├── tempsensor
+│   └── webpieasy
+├── lib
+│   ├── CMakeLists.txt
+│   ├── extensions
+│   │   ├── CMakeLists.txt
+│   │   ├── components
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── inputs
+│   │   │   └── outputs
+│   │   ├── devices
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_cc1101.hpp
+│   │   │   ├── wp_mcp23017_8.hpp
+│   │   │   └── wp_vl53l0x.hpp
+│   │   ├── driver
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_i2c.hpp
+│   │   │   ├── wp_spi.hpp
+│   │   │   ├── wp_tcp_client.hpp
+│   │   │   └── wp_uart.hpp
+│   │   ├── gpio
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_gpiod_wrap.hpp
+│   │   │   └── wp_gpio_v2.hpp
+│   │   ├── module
+│   │   │   ├── CMakeLists.txt
+│   │   │   ├── wp_counter.hpp
+│   │   │   ├── wp_filetools.hpp
+│   │   │   ├── wp_logbook.hpp
+│   │   │   ├── wp_minimodbus.hpp
+│   │   │   └── wp_mqtt.hpp
+│   │   └── README.md
+│   └── wpeasy
+│       ├── CMakeLists.txt
+│       ├── README_DE.md
+│       ├── README.md
+│       ├── wp_easy.hpp
+│       ├── wp_json.hpp
+│       ├── wp_math.hpp
+│       ├── wp_out.hpp
+│       ├── wp_parse.hpp
+│       ├── wp_string.hpp
+│       ├── wp_system.hpp
+│       └── wp_time.hpp
+├── projects
+│   └── README.md
+├── resources
+│   ├── benchmark
+│   ├── images
+│   ├── tools
+│   ├── webpistart
+│   ├── webpicode
+│   └── README
+├── source.list
+├── templates
+│   ├── cmake
+│   ├── libs
+│   ├── README.md
+│   ├── web
+│   └── webpi
+└── webpistart
+     ├── bash
+     │   ├── apps.bash
+     │   ├── build.bash
+     │   ├── conf.bash
+     │   ├── dependencies.bash
+     │   ├── examples.bash
+     │   ├── main.bash
+     │   ├── msg.bash
+     │   ├── projects.bash
+     │   ├── sources.bash
+     │   └── status.bash
+     ├── CHANGELOG.md
+     ├── data
+     │   └── remote_source.list
+     ├── README.md
+     ├── templates
+     │   ├── base.cpp
+     │   ├── cmakelists.txt
+     │   └── web
+     │       ├── app.js
+     │       ├── images
+     │       ├── index.html
+     │       └── style.css
+     └── webpistart.sh
+
 
 ```
 
@@ -108,7 +204,8 @@ Example of sensor integration with SVG charts and logging functionality.
 
 🛠️ WebPi Status
 WebPi is in an advanced stage, nearing release.
-You can follow the development via the source list.
+You can follow the development via the source list and the regular news.
+
 Stay tuned!
 
 
