@@ -31,24 +31,12 @@ once the core foundation is rock solid!
          - Projects: Streamlined creation wizard, project listing, building,
                      start/stop management, and background daemon execution (keep-running mode).
 
-
-<foreignObject>
-<div xmlns="http://www.w3.org/1999/xhtml">
-<style>
-.img {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  gap:6px;
-}
-</style>
-<div class="img">
+<p float="left">
 <div align="center">Main-Menu.<br><img src="resources/wpstart/wps_main.png" alt="WebPiStart Main-Menu" width="20%" height="20%" /></div>
 <div align="center">Binary status.<br><img src="resources/wpstart/wps_status.png" alt="WebPiStart Binary status" width="20%" height="20%" /></div>
 <div align="center">Project-Menu.<br><img src="resources/wpstart/wps_projectlist.png" alt="WebPiStart Project-Menu" width="20%" height="20%" /></div>
 <div align="center">Create new Project<br><img src="resources/wpstart/wps_newproject.png" alt="WebPiStart Create new Project" width="20%" height="20%" /></div></div>
-</div>
-</foreignObject>
+</p>
 
   🤖 **Libs & Extensions**
       - Devices: Refactoring and updating drivers for MCP23017/08, VL53L0X, and CC1101.
