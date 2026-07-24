@@ -60,7 +60,7 @@ once the core foundation is rock solid!
    There is still plenty of work ahead, but we are pushing hard toward our first release.
    
    Stay tuned! 🚀
- <br><br>
+ <br><br><br><br>
  **Update April 1st, 2026: WebPiCode Extension Preview!**
  <br><br>
  We are working hard on **WebPiCode**, the official VS Code Extension. 
