@@ -5,7 +5,7 @@
 <h3 align="center">Das Hardware und Software-Logik Framework</h3>
 <br>
 <br>
-<div><h6><a href="NEWS.md">**NEWS**</a><h6><a href="README.md">English version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
+<div><h6><a href="NEWS.md">🔥🔥**NEWS**🔥🔥</a><h6><a href="README.md">English version</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
 
 ---
@@ -49,7 +49,7 @@ WebPi bringt dieses Gefühl zurück. Es verpackt komplexe Mechanismen in klare, 
      - Nutze WebPiGPIOV2, den libgpiod WebPiGPIOD-Wrapper oder andere GPIO-Bibliotheken – du entscheidest, was zu deinen Anforderungen passt.
      - Konfiguration über `configPin()`, Lesen/Schreiben über `setPin()` / `getPin()`. Steuer GPIOs mit kurzer, prägnanter Syntax.
 
-* **📖 Ihr Fortschritt:**
+* **📖 Dein Fortschritt:**
      - Viele WebPi-Funktionen bieten Standardparameter, lassen sich aber vollständig mit eigenen Werten anpassen.
 
 * **🛟 WebPi-Start:**
