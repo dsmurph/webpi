@@ -49,12 +49,6 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 * **📖 Your Progress:**
      - Many WebPi functions serve you with default parameters but can be fully customized with your own values.
 
-* **🛟 WebPi-Start:**
-     - A Bash based, menu driven startup tool that manages dependencies and builds at the touch of a button.
-     - Create **custom project** structures at the push of a button, using templates for C++, HTML, CSS, JavaScript, and CMakeLists.
-     - Build the future ones WebPi Apps and Examples, compare code with the visual web interface see what works, how, and why.
-     - **Central control** start/stop, or let the binaries continue running in the background.
-
 * **⚠️ WebPi-Apps:**
      - Ready to use apps. Adapt the applications to your needs and turn them into your own project.
      - Everything C++, system headers and WebPi have to offer finds its place here for immediate use or as inspiration for your visions.
@@ -66,7 +60,7 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 
 Have it created using WebPiStart or create it manually. Use the many examples and wpeasy for quick results.
 
-Start your project
+**Start your project**
 ```
 
 #include "webpi.hpp"
@@ -96,7 +90,7 @@ int main() {
 
 ```
 
-Your project directory structure
+**Your project directory structure**
 ```
 
 myproject/
@@ -113,7 +107,101 @@ myproject/
 
 ---
 
-## 🧱 Architecture Overview
+## 🛟 WebPi-Start
+
+A Bash based, menu driven startup tool that manages dependencies and builds at the touch of a button.
+ - Create **custom project** structures at the push of a button, using templates for C++, HTML, CSS, JavaScript, and CMakeLists.
+ - Build the future ones WebPi Apps and Demo Examples, compare code with the visual web interface see what works, how, and why.
+ - **Central control** start/stop, or let the binaries continue running in the background. Have your completed projects set up as a system service.
+
+Control everything from a device of your choice; you only need an SSH connection to your Raspberry Pi.
+
+
+**Ready to use in a few steps**
+```
+
+  cd webpi/webpistart
+  
+  chmod +x webpistart.sh
+  
+  ./webpistart.sh
+  
+```
+
+Great tools e.g.
+ - Putty
+ - Termius
+ - OpenSSH
+
+
+**⌨️ Main menu**
+```
+
+=======================================
+              WebPiStart
+=======================================
+
+
+
+───────────────────────
+1) Projects
+2) Apps
+3) Examples
+───────────────────────
+t) View backgound tasks
+b) View binary status
+───────────────────────
+p) Prepare system (dependencies)
+s) Compare release status
+───────────────────────
+q) Quit
+
+
+```
+
+
+**🆕 Create new project**
+```
+
+=======================================
+              WebPiStart
+=======================================
+
+###    Project configuration    ###
+
+
+Project name: myproject
+  
+WebPiServer:
+http://192.168.178.8:8989
+
+WebPi libs:
+wp_easy.hpp
+  
+Projects CMakeLists:
+add_subdirectory(myproject)
+  
+Create project directory structure:
+projects
+├── myproject
+│   ├── src
+│   │   └── myproject.cpp
+│   ├── web
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   └── app.js
+│   └── CMakeLists.txt
+└── CMakeLists.txt
+───────────────────────
+1) View CMakeLists.txt
+2) View myproject.cpp
+3) Create project
+c) Cancel
+
+```
+
+---
+## 🧱 Framework Architecture Overview
 WebPi is modular and clearly structured. The extensions are not hardlinked, meaning they can also be used for your own independent purposes. You simply need to include the available libraries in your project and add them to the CMakeLists—only the ones you actually need.
 
 ```
@@ -232,7 +320,7 @@ webpi
 ---
 
 🔢 The Bitmask Concept
-WebPi makes binary logic visible. Examples like `actuators` or `shutter` demonstrate directly how the internal 8-bit mask interacts with the webinterface.
+WebPi makes binary logic visible. Demo Examples like `actuators` demonstrate directly how the internal 8-bit mask interacts with the webinterface.
 
 <div align="center">
 <img src="resources/examples/actuators.jpg" alt="WebPi Actuators" width="40%" height="40%"/>
