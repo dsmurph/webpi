@@ -201,6 +201,62 @@ c) Cancel
 ```
 
 ---
+
+## 🌐 WebPi & WebPiEasy
+
+It brings back the **WiringPi** experience and the simplicity of programming a microcontroller like an **Arduino**, with the power of C++ programming and the advantages of a modern POSIX operating system.
+Consistent, easy-to-remember functions without elaborate names e.g.
+
+**webpi**
+- server()
+- on()
+- send()
+- quit()
+- **memory**
+    - readSlot()
+    - writeSlot()
+    - clearSlot()
+    - readSlotA-D()
+    - writeSlotA-D()
+  
+**gpio**
+  - setPin()
+  - getPin()
+  - configurePin()
+  
+**uart, spi, i2c**
+  - open()
+  - close()
+  - isOpen()
+  
+**tcp, udp**
+  - write()
+  - read()
+  - available()
+  - connected()
+
+**terminal out**
+  - tell()
+  - tellb()
+  - tellerr()
+
+**hardware inputs & outputs**
+ 
+ **buttons**
+  - add()
+  - update()
+  - remove()
+
+ **buzzer**
+  - play()
+  - beep()
+  - playCustom()
+  - playMelody()
+  
+  
+and many more.
+
+---
 ## 🧱 Framework Architecture Overview
 WebPi is modular and clearly structured. The extensions are not hardlinked, meaning they can also be used for your own independent purposes. You simply need to include the available libraries in your project and add them to the CMakeLists—only the ones you actually need.
 
