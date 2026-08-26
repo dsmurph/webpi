@@ -64,7 +64,7 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
 
 ## 📐 Basic Structure
 
-Have it created using WebPiStart or create it manually.
+Have it created using WebPiStart or create it manually. Use the many examples and wpeasy for quick results.
 
 Start your project
 ```
