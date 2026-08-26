@@ -54,10 +54,62 @@ WebPi brings that feeling back. It wraps complex mechanisms into clear, readable
      - Create **custom project** structures at the push of a button, using templates for C++, HTML, CSS, JavaScript, and CMakeLists.
      - Build the future ones WebPi Apps and Examples, compare code with the visual web interface see what works, how, and why.
      - **Central control** start/stop, or let the binaries continue running in the background.
+
 * **⚠️ WebPi-Apps:**
      - Ready to use apps. Adapt the applications to your needs and turn them into your own project.
      - Everything C++, system headers and WebPi have to offer finds its place here for immediate use or as inspiration for your visions.
 
+
+---
+
+## 📐 Basic Structure
+
+Have it created using WebPiStart or create it manually.
+
+Start your project
+```
+
+include "webpi.hpp"
+
+WebPi webpi;
+
+
+void init() {
+    // One-time initialization & lib setup
+}
+
+
+void run() {
+    // Your loop code (controlled execution)
+}
+
+
+void onclose() {
+    // Clean termination of the process called automatically e.g. Ctrl+C:
+}
+
+
+int main() {
+    // Hands over lifecycle and signal handling to WebPi
+    webpi.main(init, run, onclose);
+}
+
+```
+
+Your project directory structure
+```
+
+myproject/
+├── CMakeLists.txt
+├── src
+│   └── myproject.cpp
+└── web
+    ├── app.js
+    ├── images
+    ├── index.html
+    └── style.css
+
+```
 
 ---
 
