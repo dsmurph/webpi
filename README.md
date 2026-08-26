@@ -63,6 +63,10 @@ Have it created using WebPiStart or create it manually. Use the many examples an
 **Start your project**
 ```
 
+/*******************************
+* myproject
+*******************************/
+
 #include "webpi.hpp"
 
 WebPi webpi;
