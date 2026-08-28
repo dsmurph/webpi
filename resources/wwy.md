@@ -18,6 +18,7 @@ Um das Projekt auf die nächste Stufe zu heben, suche ich Gleichgesinnte, die Lu
   - Motivation, dich längerfristig einzubringen.
 
 
+
 **Mögliche Aufgabenfelder**
  - Core & Architecture:
    Build-System, Core-Module, Performance-Optimierung.
@@ -47,6 +48,7 @@ dann schreibe uns einfach.
 <a href="https://github.com/dsmurph/webpi/discussions/2"> ➡️ We want you</a>
 
 
+
 ## ☝🏼 Das Menschliche ist mir genauso wichtig wie der Code
 
 Entspanntes Miteinander: 
@@ -61,9 +63,6 @@ Familie, Gesundheit und Freizeit gehen immer vor.
 Geduld & Verständnis:
 Lieber Dinge in Ruhe durchdenken, als überhastet Code reinzudrücken.
 Wir tüfteln ohne Deadline-Stress.
-
-
-Schremach ein Issue/Discussion auf GitHub auf. 
 
 
 Ich freue mich auf den Austausch!
