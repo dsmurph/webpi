@@ -1,6 +1,6 @@
 ## 🫵🏼 Willkommen auf dem WebPi Repository 🫵🏼
 
-Habst du auch das Gefühl, dass viele Tools und Frameworks in der Raspberry-Maker-Szene immer schwerfälliger, gigantischer und unübersichtlicher werden?
+Hast du auch das Gefühl, dass viele Tools und Frameworks in der Raspberry-Maker-Szene immer schwerfälliger, gigantischer und unübersichtlicher werden?
 Wenn man einfach nur schlanken, performanten Code ohne riesigen Overhead auf die Hardware bringen will, landet man schnell bei überladenen Bibliotheken,
 von denen man zum größten Teil nur ein paar Funktionen braucht die dann aber lange Einarbeitungszeit und manchmal gefühlt ein halbes Studium benötigen.
 
