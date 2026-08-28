@@ -7,8 +7,6 @@ von denen man zum größten Teil nur ein paar Funktionen braucht die dann aber l
 Ich möchte mit WebPi den mittlerweile komplexen Industriestandard wieder greifbar machen und den Einstieg in Hardware- und Softwareprogrammierung für Jung und Alt erleichtern.
 Mit wenigen Zeilen Code sollen wieder schnelle Erfolgserlebnisse auf dem Einplatinencomputer möglich sein!
 
-WebPi ist ein leichtgewichtiges, modulares C++ Framework, das die Steuerung, Sensorik, Aktorik und Web-Anbindung auf dem Raspberry Pi und angebundenen Mikrocontrollern wieder einfach, schnell und nah an der Hardware macht.
-
 Um das Projekt auf die nächste Stufe zu heben, suche ich Gleichgesinnte, die Lust haben, das Framework gemeinsam weiterzuentwickeln und in verschiedene Arbeitsbereiche aufzuteilen.
 
 **Was du mitbringen solltest**
