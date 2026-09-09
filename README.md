@@ -3,7 +3,7 @@
 </div>
 <h3 align="center">The Hardware and <br>Software Logic Framework</h3>
 <br>
-  <div align="center"><a href="resources/wwy.md"><img src="kaiodo.de" alt="we want you" width="30%" height="30%"></a></div>
+  <div align="center"><a href="resources/wwy.md"><img src="www.kaiodo.de" alt="we want you" width="30%" height="30%"></a></div>
 <br>
 <div><h6><a href="NEWS.md">🔥 NEWS 🔥</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
