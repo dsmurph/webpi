@@ -401,6 +401,22 @@ Whether it's temperature logs or system monitoring, WebPi helps you realize your
 Example of sensor integration with SVG charts and logging functionality.
 </div>
 
+---
+
+## 🌐 Web Content Development (WebData)
+
+WebPi strictly separates source code from generated build artifacts. During compilation, a symbolic link (symlink) pointing from the `web` folder to the corresponding binary directory (under `bin/`) is automatically created for each module/binary.
+
+### ⚠️ IMPORTANT
+
+**Never** edit web files (HTML, CSS, JS, images) directly in the `bin/` directory!
+
+* **The Problem:** The `bin/` directory is strictly an output folder. During a rebuild, all files there could be irrevocably deleted or overwritten. Your work would be lost.
+
+#### The correct workflow:
+1. Open and edit web files exclusively in the **source folder** of the respective project (e.g., under `projects/.../web/...` or `apps/.../web/...`).
+2. Thanks to the symlink, changes take effect **immediately and live** in the web server/binary directory. There is no need to recompile the project for frontend changes!
+3. Your work is thus safely protected against accidental deletion or overwriting.
 
 ---
 
