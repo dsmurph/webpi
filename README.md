@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://kaiodo.de/images/wp.png" alt="WebPi Logo" width="100">
+  <img src="/resources/webpi.png" alt="WebPi Logo" width="200">
 </div>
-<h3 align="center">The Hardware and <br>Software Logic Framework</h3>
+<h3 align="center">The Hardware and Software Logic Framework</h3>
 <br>
-  <div align="center"><a href="resources/wwy.md"><img src="resources/wwy.png" alt="we want you" width="30%" height="30%"></a></div>
+  <div align="center"><a href="resources/wwy.md"><img src="resources/wwy.png" alt="we want you" width="20%" height="20%"></a></div>
 <br>
 <div><h6><a href="NEWS.md">🔥 NEWS 🔥</a> | <a href="STORY.md">Story of WebPi</a></h6></div>
 
